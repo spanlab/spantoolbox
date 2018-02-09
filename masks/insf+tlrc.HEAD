@@ -1,0 +1,121 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 1061
+'[span@dmthal: Tue Mar 23 16:24:58 2010] to3d -prefix sag116 21091_03152010/006/I0001.dcm 21091_03152010/006/I0002.dcm 21091_03152010/006/I0003.dcm ... 21091_03152010/006/I0115.dcm 21091_03152010/006/I0116.dcm\n[span@amygdala: Tue Mar 23 16:37:52 2010] plug_nudge: -rotate   0.00I   0.00R   0.00A  -ashift   0.00S   1.00L  -1.50P\n[span@amygdala: Tue Mar 23 16:42:21 2010] afni: transformed to AC-PC Aligned\n[span@amygdala: Tue Mar 23 16:43:50 2010] afni: transformed to Talairach View\n[span@amygdala: Thu May  6 10:15:53 2010] AFNI: resampled and rewritten\n[span@dmthal: Mon May 10 13:40:01 2010] Drawing plugin COPY: Fill->Zero Type->Func\n[span@dmthal: Mon May 10 13:45:28 2010] Drawing plugin COPY: Fill->Data\n[span@vta: Wed Jan 26 19:05:09 2011] 3dresample -dxyz 2.0 2.0 2.0 -prefix ins -inset ins1+tlrc.\n[span@sr15-9af235278d.stanford.edu: Wed Mar 16 17:17:35 2016] 3dfractionize -template /Users/span/abin/TT_N27f.nii -input /Users/span/projects/stockmri/scripts/ins+tlrc. -clip 0.1 -preserve -prefix /Users/span/projects/stockmri/scripts/masks/insf~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_ANAT~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'XYZ_IHZhM-0aFTUUBFof8dY4Eg~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Wed Mar 16 17:17:35 2016~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 11 0 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 0 3 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+         -79.75         -79.25         -63.95
+
+type  = float-attribute
+name  = DELTA
+count = 3
+            2.9            2.9            2.9
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+            2.9              0              0         -79.75              0
+            2.9              0         -79.25              0              0
+            2.9         -63.95
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+            2.9              0              0         -79.75              0
+            2.9              0         -79.25              0              0
+            2.9         -63.95
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 2
+              0              2
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 1 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 56 66 52 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 1
+ 1
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 1
+              0
+
+type = string-attribute
+name = BRICK_LABS
+count = 14
+'colin27T1_seg~
+
+type = string-attribute
+name = BRICK_KEYWORDS
+count = 1
+'~
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 7
+'TT_N27~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~

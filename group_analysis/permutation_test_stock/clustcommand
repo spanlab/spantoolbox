@@ -1,0 +1,14 @@
+3dclust -1Dformat -nosum -1dindex 0 -1tindex 0 -2thresh -2.805 2.805 -dxyz=1 0 3 buy_vs_not_perm_pval_perm_tvalues.nii > buy_vs_not_perm_pval_perm_tvalues.nii.1D
+
+3dclust -1Dformat -nosum -1dindex 0 -1tindex 0 -2thresh -2.805 2.805 -dxyz=1 0 3 choice_perm_pval_perm_tvalues.nii > choice_perm_pval_perm_tvalues.nii.1D
+
+3dclust -1Dformat -nosum -1dindex 0 -1tindex 0 -2thresh -2.805 2.805 -dxyz=1 0 3 cue_perm_pval_perm_tvalues.nii > cue_perm_pval_perm_tvalues.nii.1D
+
+3dclust -1Dformat -nosum -1dindex 0 -1tindex 0 -2thresh -2.805 2.805 -dxyz=1 0 3 feedback_perm_pval_perm_tvalues.nii > feedback_perm_pval_perm_tvalues.nii.1D
+
+3dclust -1Dformat -nosum -1dindex 0 -1tindex 0 -2thresh -2.805 2.805 -dxyz=1 0 3 no_bet_down_vs_up_perm_pval_perm_tvalues.nii > no_bet_down_vs_up_perm_pval_perm_tvalues.nii.1D
+
+3dclust -1Dformat -nosum -1dindex 0 -1tindex 0 -2thresh -2.805 2.805 -dxyz=1 0 3 questions_perm_pval_perm_tvalues.nii > questions_perm_pval_perm_tvalues.nii.1D
+
+3dclust -1Dformat -nosum -1dindex 0 -1tindex 0 -2thresh -2.805 2.805 -dxyz=1 0 3 win_lose_perm_pval_perm_tvalues.nii > win_lose_perm_pval_perm_tvalues.nii.1D
+

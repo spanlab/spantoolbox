@@ -1,0 +1,247 @@
+#!/bin/tcsh
+# nick borg 
+# plot an image, with options for montage/coordinate. 
+
+set retval = 1
+
+PARSE:
+   set Narg = $#
+   set cnt = 1
+   set under = ""
+   set over = ""
+   set montage = true
+   set sbrick = 0
+   set prefix = 'afni_image_output'
+   set threshold = '2575'
+   set montage_size = '9x4:3'
+   set dx = 0;
+   set dy = 0;
+   set dz = 0;
+
+   if ("$1" == '') goto HELP
+   while ($cnt <= $Narg)
+      set donext = 1;
+
+      if ($donext && "$argv[$cnt]" == "-help" || "$argv[$cnt]" == "-h") then
+         set retval = 0
+         goto HELP
+      endif
+
+      if ($donext && "$argv[$cnt]" == "-u" || "$argv[$cnt]" == "-underlay") then
+         @ cnt ++
+         set under = ($argv[$cnt])
+         set donext = 0   
+      endif
+
+      if ($donext && "$argv[$cnt]" == "-o" || "$argv[$cnt]" == "-overlay") then
+         @ cnt ++
+         set over = ($argv[$cnt])
+         set donext = 0   
+      endif
+
+      if ($donext && "$argv[$cnt]" == "-prefix") then
+         @ cnt ++
+         set prefix = ($argv[$cnt])
+         set donext = 0   
+      endif
+
+      if ($donext && "$argv[$cnt]" == "-montage_size") then
+         @ cnt ++
+         set montage_size = ($argv[$cnt])
+         set donext = 0   
+      endif
+
+
+      if ($donext && "$argv[$cnt]" == "-no-montage" || "$argv[$cnt]" == "-no_montage") then
+         set montage=false
+         set donext = 0   
+      endif
+
+      if ($donext && "$argv[$cnt]" == "-labels") then
+         setenv AFNI_IMAGE_LABEL_MODE  5
+         set donext = 0   
+      endif
+
+      if ($donext && "$argv[$cnt]" == "-threshold") then
+         @ cnt ++
+         set threshold = ($argv[$cnt])
+         set donext = 0   
+      endif
+
+      if ($donext && "$argv[$cnt]" == "-sub") then
+         @ cnt ++
+         set sbrick = ($argv[$cnt])
+         set donext = 0   
+      endif
+
+      if ($donext && "$argv[$cnt]" == "-dxyz") then
+         set pLoc = $cnt    
+         if (`expr $pLoc + 3` > $Narg) then
+            echo "Need 3 coordinates x y z after -dxyz"
+            goto END
+         else
+            @ cnt ++
+            set dx = ($argv[$cnt])
+            @ cnt ++
+            set dy = ($argv[$cnt])
+            @ cnt ++
+            set dz = ($argv[$cnt])
+            set donext = 0   
+         endif   
+      endif
+
+      if ($donext == 1) then
+         echo "Error: Option or parameter '$argv[$cnt]' not understood"
+         goto END
+      endif
+      @ cnt ++
+   end
+
+   if ( `@CheckForAfniDset $under` == 0 ) then
+      echo ""
+      echo "Error `basename $0`"
+      echo "Dset $under not found"
+      echo ""
+      goto END
+   endif
+   if ( `@CheckForAfniDset $over` == 0 ) then
+      echo ""
+      echo "Error `basename $0`"
+      echo "Dset $over not found"
+      echo ""
+      goto END
+   endif
+
+DEED:
+
+   set curdir = `pwd`
+   cd   `dirname ${under}`
+   set under = `basename $under`
+   set over = `basename $over`
+
+   if (! -e `dirname $prefix`) then
+      mkdir `dirname $prefix`
+   endif
+   # Much of this taken from @snapshot_volreg (use that to check alignment)
+   setenv AFNI_NOSPLASH          YES
+   setenv AFNI_SPLASH_MELT       NO
+   setenv AFNI_LEFT_IS_LEFT      NO
+   setenv AFNI_IMAGE_LABEL_SIZE  2
+   setenv AFNI_ENVIRON_WARNINGS  NO
+   setenv AFNI_COMPRESSOR        NONE
+
+   # reinitialize xvfb
+   unset xdisplay
+   unset killX
+
+   set ranval = `count -dig 1 1 999999 R1`
+
+   if( $?xdisplay == 0 )then
+       set killX     = 1
+       set ntry      = 1
+       set Xnotfound = 1
+       while( $Xnotfound )
+           set xdisplay = `count -dig 1 3 999 R1`
+           if( -e /tmp/.X${xdisplay}-lock ) continue
+           #echo " -- trying to start Xvfb :${xdisplay}"
+           Xvfb :${xdisplay} -screen 0 1024x768x24 >& /dev/null &
+           sleep 1
+           jobs > zzerm.$ranval.txt
+           grep -q Xvfb zzerm.$ranval.txt
+           set Xnotfound = $status
+           rm -f zzerm.$ranval.txt
+           if( $Xnotfound == 0 )break ;
+           @ ntry++
+           if( $ntry > 99 )then
+               echo "** ERROR: can't start Xvfb -- exiting"
+               exit 1
+           endif
+       end
+   endif
+
+   setenv DISPLAY :${xdisplay}
+
+   if(${montage} == true) then
+      afni -quiet -no_detach -noplugins \
+         -com "SWITCH_UNDERLAY ${under}" \
+         -com "OPEN_WINDOW A.sagittalimage mont=${montage_size} geom=2000x2000+800+600" \
+         -com "OPEN_WINDOW A.coronalimage mont=${montage_size} geom=2000x2000+800+600" \
+         -com "OPEN_WINDOW A.axialimage mont=${montage_size} geom=2000x2000+800+600" \
+         -com "SET_FUNC_RANGE A.10" \
+         -com "SWITCH_OVERLAY ${over}" \
+         -com "SET_THRESHOLD A.${threshold} 1" \
+         -com "SET_SUBBRICKS A -1 ${sbrick} ${sbrick}" \
+         -com 'SET_FUNC_RANGE 10' \
+         -com 'SET_FUNC_VISIBLE A.+' \
+         -com 'SET_XHAIRS OFF' \
+         -com 'SET_FUNC_RESAM A.NN.Cu' \
+         -com 'SET_PBAR_ALL A.-9 1.000=yellow .386973=yell-oran .325670=orange .25000=red .05000=none -.05000=dk-blue -.250000=lt-blue1 -.325670=blue-cyan -.394636=cyan' \
+         -com "SAVE_JPEG A.sagittalimage ${prefix}_sagittal.jpg blowup=2" \
+         -com "SAVE_JPEG A.coronalimage ${prefix}_coronal.jpg blowup=2" \
+         -com "SAVE_JPEG A.axialimage ${prefix}_axial.jpg blowup=2" \
+         -com "QUITT"
+   else 
+      afni -quiet -no_detach -noplugins \
+         -com "SWITCH_UNDERLAY ${under}" \
+         -com "SET_DICOM_XYZ ${dx} ${dy} ${dz}" \
+         -com "OPEN_WINDOW A.sagittalimage geom=2000x2000+1200+900" \
+         -com "OPEN_WINDOW A.coronalimage geom=2000x2000+1200+900" \
+         -com "OPEN_WINDOW A.axialimage geom=2000x2000+1200+900" \
+         -com "SET_FUNC_RANGE A.10" \
+         -com "SWITCH_OVERLAY ${over}" \
+         -com "SET_THRESHOLD A.${threshold} 1" \
+         -com "SET_SUBBRICKS A -1 ${sbrick} ${sbrick}" \
+         -com 'SET_FUNC_RANGE 10' \
+         -com 'SET_FUNC_VISIBLE A.+' \
+         -com 'SET_XHAIRS OFF' \
+         -com 'SET_FUNC_RESAM A.NN.Cu' \
+         -com 'SET_PBAR_ALL A.-9 1.000=yellow .386973=yell-oran .325670=orange .25000=red .05000=none -.05000=dk-blue -.250000=lt-blue1 -.325670=blue-cyan -.394636=cyan' \
+         -com "SAVE_JPEG A.sagittalimage ${prefix}_${dx}_${dy}_${dz}_sagittal.jpg blowup=2" \
+         -com "SAVE_JPEG A.coronalimage ${prefix}_${dx}_${dy}_${dz}_coronal.jpg blowup=2" \
+         -com "SAVE_JPEG A.axialimage ${prefix}_${dx}_${dy}_${dz}_axial.jpg blowup=2" \
+         -com "QUITT"
+   endif
+
+   set retval = $status
+   
+   goto END
+
+HELP:
+   echo ""
+   echo "Usage: `basename $0` <-underlay ANAT -overlay -DSET> "
+   echo ""
+   echo " Return a jpeg image of DSET overlayed  on ANAT. "
+   echo ""
+   echo "   By default, create a montage. Use dxyz with -no-montage "
+   echo "       if you want a single location. Works best if ANAT/DSET in cwd"
+   echo " "
+   echo '   Example: @afni_image -u anat.nii -o zstock_reg_csfwm_masked+orig \ '
+   echo "                -prefix reg -sub 3 "
+   echo "        Creates a 9x4:3 montage of subbrick 3 overlayed on top of anat "
+   echo "        Returns montage for each plane; contains most of the brain."
+   echo ""
+   echo '   Example: @afni_image -u TT_N27.nii -o nacc8mm+tlrc -dxyz 10 -12 -2 \'
+   echo "                -prefix nacc_image -no-montage -threshold 0 "
+   echo "        Creates 3 (cor/sag/axi) images showing left side of a nacc"
+   echo "        ROI at coordinates  10, -12. -2 on the Colin brain. "
+   echo " "
+   echo "   ========================= OPTIONS =============================== "
+   echo ""
+   echo "   -no-montage       Use this option to turn montage off."
+   echo "   -prefix:          The name that will be given to the jpeg outfile. "
+   echo "                     Unless absolute path is given, prefix path is  "
+   echo "                     to be in the same directory as -underlay  " 
+   echo "   -sub:             Tell AFNI to print this subbrick [Default: 0] "
+   echo "   -dxyz x y z:      Where to center the images. [Default = 0 0 0]"
+   echo "   -threshold:       What to set the threshold [Default 2575=p<0.01)]. "
+   echo "                     Use 1960 for p<0.05. No cluster correction;"
+   echo "                     to correct your images, use 3dClustSim first."
+   echo "   -montage_size:    How to lay out the montage. [Default 9x4:3]. Last "
+   echo "                     number is the number of slices  between frames."
+   echo "   -labels:          Display coordinates over montage frames."
+   echo ""
+   goto END
+   cd $curdir
+END:
+
+exit $retval

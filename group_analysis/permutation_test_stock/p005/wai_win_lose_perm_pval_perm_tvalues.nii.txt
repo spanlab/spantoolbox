@@ -1,0 +1,1633 @@
+++ Input coordinates orientation set by default rules to RAI
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -16 mm [L],   21 mm [A],   46 mm [S]	{TLRC}                                                          
+ -16 mm [L],   19 mm [A],   51 mm [S]	{MNI} <a href="http://neurosynth.org/locations/-16_19_51">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-16&ycoord=19&zcoord=51&distance=7.5">SumsDB</a>
+ -16 mm [L],   15 mm [A],   56 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Superior Frontal Gyrus    	 MPM	251
+TT_Daemon      	2.0	Left  Brodmann area 8           	 MPM	288
+TT_Daemon      	4.0	Left  Medial Frontal Gyrus      	 MPM	252
+TT_Daemon      	5.0	Left  Cingulate Gyrus           	 MPM	243
+TT_Daemon      	6.0	Left  Middle Frontal Gyrus      	 MPM	247
+TT_Daemon      	6.0	Left  Brodmann area 32          	 MPM	308
+TT_Daemon      	7.0	Left  Brodmann area 6           	 MPM	286
+CA_ML_18_MNIA  	0.0	Left Superior Frontal Gyrus     	 ---	3  
+CA_ML_18_MNIA  	2.0	Left Middle Frontal Gyrus       	 ---	7  
+CA_ML_18_MNIA  	6.0	Left SMA                        	 ---	19 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.37	0  
+CA_GW_18_MNIA  	0.0	white                           	0.63	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	2.0	ctx_lh_S_front_sup              	 MPM	55 
+DD_Desai_MPM   	5.0	ctx_lh_G_front_sup              	 MPM	16 
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	2.0	ctx-lh-superiorfrontal          	 MPM	28 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -10 mm [L],    7 mm [A],   -3 mm [I]	{TLRC}                                                          
+ -10 mm [L],    7 mm [A],   -3 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-10_7_-3">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-10&ycoord=7&zcoord=-3&distance=7.5">SumsDB</a>
+ -10 mm [L],    3 mm [A],    2 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Lentiform Nucleus         	 MPM	270
+TT_Daemon      	1.0	Left  Lateral Globus Pallidus   	 MPM	345
+TT_Daemon      	1.0	Left  Caudate Head              	 MPM	326
+TT_Daemon      	2.0	Left  Caudate                   	 MPM	277
+TT_Daemon      	2.0	Left  Putamen                   	 MPM	351
+TT_Daemon      	4.0	Left  Medial Globus Pallidus    	 MPM	344
+TT_Daemon      	6.0	Left  Anterior Cingulate        	 MPM	221
+TT_Daemon      	7.0	Left  Subcallosal Gyrus         	 MPM	222
+CA_ML_18_MNIA  	0.0	Left Pallidum                   	 ---	75 
+CA_ML_18_MNIA  	2.0	Left Caudate Nucleus            	 ---	71 
+CA_ML_18_MNIA  	2.0	Left Putamen                    	 ---	73 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.17	0  
+CA_GW_18_MNIA  	0.0	white                           	0.84	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Accumbens-area             	 MPM	165
+DD_Desai_MPM   	1.0	Left-Putamen                    	 MPM	158
+DD_Desai_MPM   	3.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	3.0	Left-Caudate                    	 MPM	157
+DD_Desai_MPM   	4.0	Left-Pallidum                   	 MPM	159
+DD_Desai_MPM   	4.0	ctx_lh_Medial_wall              	 MPM	42 
+DD_Desai_MPM   	6.0	ctx_lh_G_subcallosal            	 MPM	32 
+DD_Desai_MPM   	7.0	Left-VentralDC                  	 MPM	166
+DKD_Desai_MPM  	0.0	Left-Accumbens-area             	 MPM	85 
+DKD_Desai_MPM  	1.0	Left-Putamen                    	 MPM	78 
+DKD_Desai_MPM  	3.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	3.0	Left-Caudate                    	 MPM	77 
+DKD_Desai_MPM  	4.0	Left-Pallidum                   	 MPM	79 
+DKD_Desai_MPM  	7.0	Left-VentralDC                  	 MPM	86 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  -4 mm [L],  -37 mm [P],   38 mm [S]	{TLRC}                                                          
+  -4 mm [L],  -40 mm [P],   39 mm [S]	{MNI} <a href="http://neurosynth.org/locations/-4_-39_38">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-4&ycoord=-39&zcoord=38&distance=7.5">SumsDB</a>
+  -4 mm [L],  -44 mm [P],   44 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Cingulate Gyrus           	 MPM	243
+TT_Daemon      	1.0	Left  Brodmann area 31          	 MPM	307
+TT_Daemon      	5.0	Right Cingulate Gyrus           	 MPM	43 
+TT_Daemon      	6.0	Left  Precuneus                 	 MPM	245
+TT_Daemon      	6.0	Left  Brodmann area 7           	 MPM	287
+TT_Daemon      	6.0	Right Brodmann area 31          	 MPM	107
+CA_ML_18_MNIA  	0.0	Left Middle Cingulate Cortex    	 ---	33 
+CA_ML_18_MNIA  	3.0	Left Precuneus                  	 ---	67 
+CA_ML_18_MNIA  	6.0	Right Middle Cingulate Cortex   	 ---	34 
+CA_ML_18_MNIA  	6.0	Left Posterior Cingulate Cortex 	 ---	35 
+CA_ML_18_MNIA  	7.0	Right Precuneus                 	 ---	68 
+CA_MPM_18_MNIA 	5.0	SPL (5M)                        	 ---	232
+CA_PM_18_MNIA  	0.0	SPL (5M)                        	0.10	63 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_LR_18_MNIA  	5.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.81	0  
+CA_GW_18_MNIA  	0.0	white                           	0.20	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+CA_N27_LR      	5.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	1.0	ctx_lh_G_precuneus              	 MPM	30 
+DD_Desai_MPM   	1.0	ctx_lh_S_cingul-Marginalis      	 MPM	47 
+DD_Desai_MPM   	1.0	ctx_lh_G_cingul-Post-dorsal     	 MPM	9  
+DD_Desai_MPM   	3.0	ctx_lh_S_subparietal            	 MPM	72 
+DD_Desai_MPM   	4.0	ctx_rh_G_cingul-Post-dorsal     	 MPM	84 
+DD_Desai_MPM   	5.0	ctx_lh_G_and_S_paracentral      	 MPM	3  
+DD_Desai_MPM   	7.0	ctx_rh_G_precuneus              	 MPM	105
+DKD_Desai_MPM  	0.0	ctx-lh-posteriorcingulate       	 MPM	23 
+DKD_Desai_MPM  	1.0	ctx-lh-precuneus                	 MPM	25 
+DKD_Desai_MPM  	2.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	5.0	ctx-rh-posteriorcingulate       	 MPM	58 
+DKD_Desai_MPM  	5.0	ctx-lh-paracentral              	 MPM	17 
+DKD_Desai_MPM  	5.0	ctx-lh-isthmuscingulate         	 MPM	10 
+DKD_Desai_MPM  	6.0	ctx-rh-precuneus                	 MPM	60 
+DKD_Desai_MPM  	7.0	ctx-rh-isthmuscingulate         	 MPM	45 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -42 mm [L],  -63 mm [P],   38 mm [S]	{TLRC}                                                          
+ -43 mm [L],  -67 mm [P],   37 mm [S]	{MNI} <a href="http://neurosynth.org/locations/-42_-66_37">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-42&ycoord=-66&zcoord=37&distance=7.5">SumsDB</a>
+ -43 mm [L],  -71 mm [P],   42 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Angular Gyrus             	 MPM	241
+TT_Daemon      	0.0	Left  Brodmann area 39          	 MPM	315
+TT_Daemon      	1.0	Left  Inferior Parietal Lobule  	 MPM	244
+TT_Daemon      	2.0	Left  Precuneus                 	 MPM	245
+TT_Daemon      	5.0	Left  Brodmann area 19          	 MPM	296
+TT_Daemon      	5.0	Left  Brodmann area 40          	 MPM	316
+TT_Daemon      	6.0	Left  Brodmann area 7           	 MPM	287
+CA_ML_18_MNIA  	0.0	Left Angular Gyrus              	 ---	65 
+CA_ML_18_MNIA  	5.0	Left Middle Occipital Gyrus     	 ---	51 
+CA_MPM_18_MNIA 	0.0	IPC (PGa)                       	 ---	127
+CA_MPM_18_MNIA 	1.0	IPC (PGp)                       	 ---	234
+CA_MPM_18_MNIA 	7.0	SPL (7A)                        	 ---	152
+CA_MPM_18_MNIA 	7.0	hIP1                            	 ---	103
+CA_PM_18_MNIA  	0.0	IPC (PGa)                       	0.50	12 
+CA_PM_18_MNIA  	0.0	IPC (PGp)                       	0.30	64 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.60	0  
+CA_GW_18_MNIA  	0.0	white                           	0.36	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	ctx_lh_G_pariet_inf-Angular     	 MPM	25 
+DD_Desai_MPM   	2.0	Left-Cerebral-White-Matter      	 MPM	151
+DKD_Desai_MPM  	0.0	ctx-lh-inferiorparietal         	 MPM	8  
+DKD_Desai_MPM  	4.0	Left-Cerebral-White-Matter      	 MPM	71 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -51 mm [L],  -19 mm [P],  -18 mm [I]	{TLRC}                                                          
+ -51 mm [L],  -19 mm [P],  -22 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-51_-19_-21">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-51&ycoord=-19&zcoord=-21&distance=7.5">SumsDB</a>
+ -51 mm [L],  -23 mm [P],  -17 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Inferior Temporal Gyrus   	 MPM	229
+TT_Daemon      	3.0	Left  Middle Temporal Gyrus     	 MPM	235
+TT_Daemon      	4.0	Left  Brodmann area 21          	 MPM	298
+TT_Daemon      	4.0	Left  Brodmann area 20          	 MPM	297
+TT_Daemon      	5.0	Left  Fusiform Gyrus            	 MPM	227
+CA_ML_18_MNIA  	0.0	Left Inferior Temporal Gyrus    	 ---	89 
+CA_ML_18_MNIA  	1.0	Left Middle Temporal Gyrus      	 ---	85 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.41	0  
+CA_GW_18_MNIA  	0.0	white                           	0.61	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	3.0	ctx_lh_G_temporal_inf           	 MPM	37 
+DD_Desai_MPM   	5.0	ctx_lh_G_temporal_middle        	 MPM	38 
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	1.0	ctx-lh-inferiortemporal         	 MPM	9  
+DKD_Desai_MPM  	4.0	ctx-lh-middletemporal           	 MPM	15 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  56 mm [R],  -28 mm [P],   -9 mm [I]	{TLRC}                                                          
+  57 mm [R],  -28 mm [P],  -12 mm [I]	{MNI} <a href="http://neurosynth.org/locations/57_-28_-12">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=57&ycoord=-28&zcoord=-12&distance=7.5">SumsDB</a>
+  57 mm [R],  -32 mm [P],   -7 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Middle Temporal Gyrus     	 MPM	35 
+TT_Daemon      	1.0	Right Brodmann area 21          	 MPM	98 
+TT_Daemon      	5.0	Right Brodmann area 20          	 MPM	97 
+TT_Daemon      	6.0	Right Inferior Temporal Gyrus   	 MPM	29 
+CA_ML_18_MNIA  	0.0	Right Middle Temporal Gyrus     	 ---	86 
+CA_ML_18_MNIA  	3.0	Right Inferior Temporal Gyrus   	 ---	90 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.56	0  
+CA_GW_18_MNIA  	0.0	white                           	0.45	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	2.0	ctx_rh_G_temporal_middle        	 MPM	113
+DD_Desai_MPM   	5.0	ctx_rh_S_temporal_sup           	 MPM	149
+DKD_Desai_MPM  	0.0	ctx-rh-middletemporal           	 MPM	50 
+DKD_Desai_MPM  	1.0	Right-Cerebral-White-Matter     	 MPM	89 
+DKD_Desai_MPM  	7.0	ctx-rh-inferiortemporal         	 MPM	44 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  42 mm [R],  -54 mm [P],  -38 mm [I]	{TLRC}                                                          
+  42 mm [R],  -54 mm [P],  -48 mm [I]	{MNI} <a href="http://neurosynth.org/locations/42_-53_-48">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=42&ycoord=-53&zcoord=-48&distance=7.5">SumsDB</a>
+  42 mm [R],  -58 mm [P],  -43 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Cerebellar Tonsil         	 MPM	58 
+CA_ML_18_MNIA  	0.0	Right Cerebellum                	 ---	102
+CA_ML_18_MNIA  	1.0	Right Cerebellum                	 ---	104
+CA_ML_18_MNIA  	3.0	Right Cerebellum                	 ---	94 
+CA_ML_18_MNIA  	6.0	Right Cerebellum                	 ---	92 
+CA_MPM_18_MNIA 	0.0	Lobule VIIa Crus I (Hem)        	 ---	248
+CA_MPM_18_MNIA 	1.0	Lobule VIIa Crus II (Hem)       	 ---	205
+CA_MPM_18_MNIA 	4.0	Lobule VIIb (Hem)               	 ---	222
+CA_MPM_18_MNIA 	7.0	Lobule VIIIa (Hem)              	 ---	209
+CA_PM_18_MNIA  	0.0	Lobule VIIa Crus II (Hem)       	0.42	50 
+CA_PM_18_MNIA  	0.0	Lobule VIIa Crus I (Hem)        	0.46	71 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.60	0  
+CA_GW_18_MNIA  	0.0	white                           	0.41	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebellum-Cortex         	 MPM	173
+DKD_Desai_MPM  	0.0	Right-Cerebellum-Cortex         	 MPM	93 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  25 mm [R],   59 mm [A],    8 mm [S]	{TLRC}                                                          
+  25 mm [R],   60 mm [A],   12 mm [S]	{MNI} <a href="http://neurosynth.org/locations/24_60_12">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=24&ycoord=60&zcoord=12&distance=7.5">SumsDB</a>
+  25 mm [R],   56 mm [A],   17 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Middle Frontal Gyrus      	 MPM	47 
+TT_Daemon      	2.0	Right Superior Frontal Gyrus    	 MPM	51 
+TT_Daemon      	2.0	Right Brodmann area 10          	 MPM	90 
+TT_Daemon      	6.0	Right Medial Frontal Gyrus      	 MPM	52 
+CA_ML_18_MNIA  	0.0	Right Superior Frontal Gyrus    	 ---	4  
+CA_ML_18_MNIA  	6.0	Right Middle Frontal Gyrus      	 ---	8  
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.69	0  
+CA_GW_18_MNIA  	0.0	white                           	0.25	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	ctx_rh_G_and_S_transv_frontopol 	 MPM	80 
+DD_Desai_MPM   	4.0	ctx_rh_G_and_S_frontomargin     	 MPM	76 
+DD_Desai_MPM   	4.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	5.0	ctx_rh_G_front_middle           	 MPM	90 
+DD_Desai_MPM   	7.0	ctx_rh_S_front_middle           	 MPM	129
+DKD_Desai_MPM  	0.0	ctx-rh-rostralmiddlefrontal     	 MPM	62 
+DKD_Desai_MPM  	6.0	Right-Cerebral-White-Matter     	 MPM	89 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  25 mm [R],   -8 mm [P],   46 mm [S]	{TLRC}                                                          
+  25 mm [R],  -10 mm [P],   50 mm [S]	{MNI} <a href="http://neurosynth.org/locations/24_-10_49">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=24&ycoord=-10&zcoord=49&distance=7.5">SumsDB</a>
+  25 mm [R],  -14 mm [P],   55 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Middle Frontal Gyrus      	 MPM	47 
+TT_Daemon      	0.0	Right Brodmann area 6           	 MPM	86 
+TT_Daemon      	3.0	Right Precentral Gyrus          	 MPM	50 
+TT_Daemon      	6.0	Right Cingulate Gyrus           	 MPM	43 
+TT_Daemon      	7.0	Right Medial Frontal Gyrus      	 MPM	52 
+CA_ML_18_MNIA  	3.0	RightPrecentral Gyrus           	 ---	2  
+CA_ML_18_MNIA  	3.0	Right Superior Frontal Gyrus    	 ---	4  
+CA_ML_18_MNIA  	6.0	Right Middle Frontal Gyrus      	 ---	8  
+CA_MPM_18_MNIA 	0.0	Area 6                          	 ---	176
+CA_PM_18_MNIA  	0.0	Area 6                          	0.40	36 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.33	0  
+CA_GW_18_MNIA  	0.0	white                           	0.69	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	3.0	ctx_rh_S_precentral-sup-part    	 MPM	145
+DD_Desai_MPM   	7.0	ctx_rh_S_front_sup              	 MPM	130
+DKD_Desai_MPM  	0.0	Right-Cerebral-White-Matter     	 MPM	89 
+DKD_Desai_MPM  	5.0	ctx-rh-precentral               	 MPM	59 
+DKD_Desai_MPM  	6.0	ctx-rh-caudalmiddlefrontal      	 MPM	38 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -30 mm [L],  -43 mm [P],    3 mm [S]	{TLRC}                                                          
+ -31 mm [L],  -44 mm [P],    1 mm [S]	{MNI} <a href="http://neurosynth.org/locations/-30_-44_0">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-30&ycoord=-44&zcoord=0&distance=7.5">SumsDB</a>
+ -31 mm [L],  -48 mm [P],    6 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Caudate                   	 MPM	277
+TT_Daemon      	2.0	Left  Hippocampus               	 MPM	268
+TT_Daemon      	4.0	Left  Parahippocampal Gyrus     	 MPM	231
+TT_Daemon      	4.0	Left  Caudate Tail              	 MPM	324
+TT_Daemon      	5.0	Left  Brodmann area 19          	 MPM	296
+TT_Daemon      	7.0	Left  Superior Temporal Gyrus   	 MPM	236
+TT_Daemon      	7.0	Left  Middle Temporal Gyrus     	 MPM	235
+CA_ML_18_MNIA  	2.0	Left Lingual Gyrus              	 ---	47 
+CA_ML_18_MNIA  	4.0	Left Hippocampus                	 ---	37 
+CA_ML_18_MNIA  	4.0	Left ParaHippocampal Gyrus      	 ---	39 
+CA_ML_18_MNIA  	7.0	Left Fusiform Gyrus             	 ---	55 
+CA_MPM_18_MNIA 	2.0	Hipp (CA)                       	 ---	123
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.36	0  
+CA_GW_18_MNIA  	0.0	white                           	0.04	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	2.0	Left-Lateral-Ventricle          	 MPM	152
+DD_Desai_MPM   	7.0	Left-Hippocampus                	 MPM	163
+DD_Desai_MPM   	7.0	ctx_lh_S_oc-temp_med_and_Lingual	 MPM	62 
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	2.0	Left-Lateral-Ventricle          	 MPM	72 
+DKD_Desai_MPM  	7.0	Left-Hippocampus                	 MPM	83 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -22 mm [L],   24 mm [A],  -12 mm [I]	{TLRC}                                                          
+ -22 mm [L],   25 mm [A],  -13 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-22_25_-12">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-22&ycoord=25&zcoord=-12&distance=7.5">SumsDB</a>
+ -22 mm [L],   21 mm [A],   -8 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Inferior Frontal Gyrus    	 MPM	239
+TT_Daemon      	2.0	Left  Middle Frontal Gyrus      	 MPM	247
+TT_Daemon      	2.0	Left  Brodmann area 11          	 MPM	291
+TT_Daemon      	2.0	Left  Brodmann area 47          	 MPM	323
+TT_Daemon      	7.0	Left  Subcallosal Gyrus         	 MPM	222
+TT_Daemon      	7.0	Left  Brodmann area 13          	 MPM	293
+CA_ML_18_MNIA  	0.0	Left Inferior Frontal Gyrus (p. Orbitalis)	 ---	15 
+CA_ML_18_MNIA  	2.0	Left Superior Orbital Gyrus     	 ---	5  
+CA_ML_18_MNIA  	4.0	Left Middle Orbital Gyrus       	 ---	9  
+CA_ML_18_MNIA  	4.0	Left Insula Lobe                	 ---	29 
+CA_ML_18_MNIA  	6.0	Left Rectal Gyrus               	 ---	27 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.11	0  
+CA_GW_18_MNIA  	0.0	white                           	0.92	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	ctx_lh_S_orbital-H_Shaped       	 MPM	65 
+DD_Desai_MPM   	1.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	1.0	ctx_lh_G_orbital                	 MPM	24 
+DKD_Desai_MPM  	0.0	ctx-lh-lateralorbitofrontal     	 MPM	12 
+DKD_Desai_MPM  	3.0	Left-Cerebral-White-Matter      	 MPM	71 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  28 mm [R],  -34 mm [P],    3 mm [S]	{TLRC}                                                          
+  28 mm [R],  -35 mm [P],    1 mm [S]	{MNI} <a href="http://neurosynth.org/locations/27_-35_1">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=27&ycoord=-35&zcoord=1&distance=7.5">SumsDB</a>
+  28 mm [R],  -39 mm [P],    6 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Parahippocampal Gyrus     	 MPM	31 
+TT_Daemon      	1.0	Right Hippocampus               	 MPM	68 
+TT_Daemon      	3.0	Right Caudate                   	 MPM	77 
+TT_Daemon      	3.0	Right Caudate Tail              	 MPM	124
+TT_Daemon      	4.0	Right Thalamus                  	 MPM	76 
+TT_Daemon      	4.0	Right Brodmann area 30          	 MPM	106
+TT_Daemon      	5.0	Right Pulvinar                  	 MPM	133
+TT_Daemon      	5.0	Right Brodmann area 27          	 MPM	103
+CA_ML_18_MNIA  	0.0	Right Hippocampus               	 ---	38 
+CA_ML_18_MNIA  	6.0	Right ParaHippocampal Gyrus     	 ---	40 
+CA_MPM_18_MNIA 	0.0	Hipp (CA)                       	 ---	123
+CA_MPM_18_MNIA 	2.0	Th-Temporal                     	 ---	166
+CA_MPM_18_MNIA 	2.0	Hipp (FD)                       	 ---	113
+CA_MPM_18_MNIA 	4.0	Th-Visual                       	 ---	211
+CA_MPM_18_MNIA 	5.0	Th-Parietal                     	 ---	111
+CA_PM_18_MNIA  	0.0	Hipp (FD)                       	0.30	5  
+CA_PM_18_MNIA  	0.0	Hipp (CA)                       	0.70	10 
+CA_PM_18_MNIA  	0.0	Th-Temporal                     	0.02	31 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.57	0  
+CA_GW_18_MNIA  	0.0	white                           	0.38	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	2.0	Right-Hippocampus               	 MPM	178
+DD_Desai_MPM   	3.0	Right-choroid-plexus            	 MPM	183
+DD_Desai_MPM   	5.0	Right-Thalamus-Proper           	 MPM	174
+DD_Desai_MPM   	5.0	Right-Lateral-Ventricle         	 MPM	170
+DKD_Desai_MPM  	0.0	Right-Cerebral-White-Matter     	 MPM	89 
+DKD_Desai_MPM  	2.0	Right-Hippocampus               	 MPM	98 
+DKD_Desai_MPM  	3.0	Right-choroid-plexus            	 MPM	103
+DKD_Desai_MPM  	5.0	Right-Thalamus-Proper           	 MPM	94 
+DKD_Desai_MPM  	5.0	Right-Lateral-Ventricle         	 MPM	90 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -10 mm [L],  -69 mm [P],  -23 mm [I]	{TLRC}                                                          
+ -10 mm [L],  -70 mm [P],  -32 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-10_-69_-31">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-10&ycoord=-69&zcoord=-31&distance=7.5">SumsDB</a>
+ -10 mm [L],  -74 mm [P],  -27 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Pyramis                   	 MPM	263
+TT_Daemon      	1.0	Left  Declive                   	 MPM	265
+TT_Daemon      	2.0	Left  Uvula                     	 MPM	262
+TT_Daemon      	5.0	Left  Nodule                    	 MPM	261
+TT_Daemon      	6.0	Left  Tuber of Vermis           	 MPM	255
+TT_Daemon      	6.0	Left  Dentate                   	 MPM	327
+TT_Daemon      	7.0	Left  Declive of Vermis         	 MPM	256
+CA_ML_18_MNIA  	1.0	Left Cerebellum                 	 ---	91 
+CA_ML_18_MNIA  	2.0	Left Cerebellum                 	 ---	103
+CA_ML_18_MNIA  	3.0	Left Cerebellum                 	 ---	93 
+CA_ML_18_MNIA  	3.0	Left Cerebellum                 	 ---	101
+CA_ML_18_MNIA  	4.0	Left Cerebellum                 	 ---	99 
+CA_ML_18_MNIA  	6.0	Cerebellar Vermis               	 ---	113
+CA_MPM_18_MNIA 	2.0	Lobule VI (Hem)                 	 ---	170
+CA_MPM_18_MNIA 	4.0	Lobule VIIIa (Vermis)           	 ---	185
+CA_MPM_18_MNIA 	4.0	Lobule VIIa Crus I (Hem)        	 ---	248
+CA_MPM_18_MNIA 	4.0	Lobule VIIb (Hem)               	 ---	222
+CA_MPM_18_MNIA 	4.0	Lobule VIIIa (Hem)              	 ---	209
+CA_MPM_18_MNIA 	6.0	Lobule VIIb (Vermis)            	 ---	220
+CA_MPM_18_MNIA 	7.0	Lobule VIIa Crus II (Hem)       	 ---	205
+CA_MPM_18_MNIA 	7.0	Lobule VIIIb (Hem)              	 ---	168
+CA_PM_18_MNIA  	0.0	Lobule VI (Hem)                 	0.02	33 
+CA_PM_18_MNIA  	0.0	Lobule VIIa Crus I (Hem)        	0.01	71 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.45	0  
+CA_GW_18_MNIA  	0.0	white                           	0.57	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebellum-Cortex          	 MPM	155
+DKD_Desai_MPM  	0.0	Left-Cerebellum-Cortex          	 MPM	75 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  62 mm [R],  -28 mm [P],   29 mm [S]	{TLRC}                                                          
+  63 mm [R],  -30 mm [P],   30 mm [S]	{MNI} <a href="http://neurosynth.org/locations/62_-30_29">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=62&ycoord=-30&zcoord=29&distance=7.5">SumsDB</a>
+  63 mm [R],  -34 mm [P],   35 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Inferior Parietal Lobule  	 MPM	44 
+TT_Daemon      	0.0	Right Brodmann area 40          	 MPM	116
+TT_Daemon      	5.0	Right Postcentral Gyrus         	 MPM	49 
+TT_Daemon      	6.0	Right Brodmann area 2           	 MPM	82 
+CA_ML_18_MNIA  	0.0	Right SupraMarginal Gyrus       	 ---	64 
+CA_ML_18_MNIA  	7.0	Right Superior Temporal Gyrus   	 ---	82 
+CA_MPM_18_MNIA 	0.0	IPC (PF)                        	 ---	226
+CA_MPM_18_MNIA 	4.0	IPC (PFcm)                      	 ---	224
+CA_MPM_18_MNIA 	6.0	IPC (PFt)                       	 ---	215
+CA_MPM_18_MNIA 	6.0	IPC (PFop)                      	 ---	244
+CA_MPM_18_MNIA 	6.0	OP 1                            	 ---	201
+CA_PM_18_MNIA  	0.0	OP 1                            	0.10	48 
+CA_PM_18_MNIA  	0.0	IPC (PF)                        	0.90	60 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.64	0  
+CA_GW_18_MNIA  	0.0	white                           	0.30	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	ctx_rh_G_pariet_inf-Supramar    	 MPM	101
+DD_Desai_MPM   	7.0	Right-Cerebral-White-Matter     	 MPM	169
+DKD_Desai_MPM  	0.0	ctx-rh-supramarginal            	 MPM	66 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  16 mm [R],   -8 mm [P],   26 mm [S]	{TLRC}                                                          
+  16 mm [R],   -9 mm [P],   28 mm [S]	{MNI} <a href="http://neurosynth.org/locations/16_-9_27">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=16&ycoord=-9&zcoord=27&distance=7.5">SumsDB</a>
+  16 mm [R],  -13 mm [P],   33 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Cingulate Gyrus           	 MPM	43 
+TT_Daemon      	0.0	Right Caudate Body              	 MPM	125
+TT_Daemon      	1.0	Right Caudate                   	 MPM	77 
+CA_ML_18_MNIA  	3.0	Right Caudate Nucleus           	 ---	72 
+CA_ML_18_MNIA  	6.0	Right Middle Cingulate Cortex   	 ---	34 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.30	0  
+CA_GW_18_MNIA  	0.0	white                           	0.48	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	1.0	Right-Caudate                   	 MPM	175
+DD_Desai_MPM   	2.0	Right-Lateral-Ventricle         	 MPM	170
+DKD_Desai_MPM  	0.0	Right-Cerebral-White-Matter     	 MPM	89 
+DKD_Desai_MPM  	1.0	Right-Caudate                   	 MPM	95 
+DKD_Desai_MPM  	2.0	Right-Lateral-Ventricle         	 MPM	90 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  16 mm [R],  -16 mm [P],   43 mm [S]	{TLRC}                                                          
+  16 mm [R],  -19 mm [P],   46 mm [S]	{MNI} <a href="http://neurosynth.org/locations/16_-19_46">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=16&ycoord=-19&zcoord=46&distance=7.5">SumsDB</a>
+  16 mm [R],  -23 mm [P],   51 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Cingulate Gyrus           	 MPM	43 
+TT_Daemon      	1.0	Right Brodmann area 24          	 MPM	101
+TT_Daemon      	4.0	Right Brodmann area 31          	 MPM	107
+TT_Daemon      	5.0	Right Paracentral Lobule        	 MPM	48 
+TT_Daemon      	5.0	Right Medial Frontal Gyrus      	 MPM	52 
+TT_Daemon      	6.0	Right Brodmann area 6           	 MPM	86 
+CA_ML_18_MNIA  	0.0	Right Middle Cingulate Cortex   	 ---	34 
+CA_ML_18_MNIA  	2.0	Right SMA                       	 ---	20 
+CA_MPM_18_MNIA 	5.0	Area 6                          	 ---	176
+CA_MPM_18_MNIA 	6.0	SPL (5Ci)                       	 ---	203
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.06	0  
+CA_GW_18_MNIA  	0.0	white                           	0.96	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	6.0	ctx_rh_G_and_S_cingul-Mid-Post  	 MPM	83 
+DKD_Desai_MPM  	0.0	Right-Cerebral-White-Matter     	 MPM	89 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  -2 mm [L],  -51 mm [P],  -26 mm [I]	{TLRC}                                                          
+  -2 mm [L],  -51 mm [P],  -34 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-1_-51_-34">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-1&ycoord=-51&zcoord=-34&distance=7.5">SumsDB</a>
+  -2 mm [L],  -55 mm [P],  -29 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Nodule                    	 MPM	261
+TT_Daemon      	2.0	Right Nodule                    	 MPM	61 
+TT_Daemon      	4.0	Left  Culmen                    	 MPM	266
+TT_Daemon      	4.0	Right Culmen                    	 MPM	66 
+TT_Daemon      	5.0	Left  Fastigium                 	 MPM	260
+TT_Daemon      	5.0	Left  Cerebellar Tonsil         	 MPM	258
+TT_Daemon      	6.0	Right Cerebellar Tonsil         	 MPM	58 
+TT_Daemon      	7.0	Right Fastigium                 	 MPM	60 
+CA_ML_18_MNIA  	0.0	Left Cerebellum                 	 ---	105
+CA_ML_18_MNIA  	1.0	Cerebellar Vermis               	 ---	115
+CA_ML_18_MNIA  	2.0	Cerebellar Vermis               	 ---	116
+CA_ML_18_MNIA  	6.0	Right Cerebellum                	 ---	106
+CA_ML_18_MNIA  	7.0	Cerebellar Vermis               	 ---	114
+CA_MPM_18_MNIA 	0.0	Lobule IX (Vermis)              	 ---	142
+CA_MPM_18_MNIA 	3.0	Lobule IX (Hem)                 	 ---	164
+CA_MPM_18_MNIA 	4.0	Lobule X (Vermis)               	 ---	191
+CA_MPM_18_MNIA 	5.0	Lobule VIIIa (Vermis)           	 ---	185
+CA_MPM_18_MNIA 	7.0	Lobules I-IV (Hem)              	 ---	150
+CA_MPM_18_MNIA 	7.0	Lobule V                        	 ---	109
+CA_MPM_18_MNIA 	7.0	Lobule VIIIb (Vermis)           	 ---	236
+CA_PM_18_MNIA  	0.0	Lobule IX (Vermis)              	0.88	19 
+CA_PM_18_MNIA  	0.0	Lobule IX (Hem)                 	0.01	30 
+CA_PM_18_MNIA  	0.0	Lobule X (Vermis)               	0.12	43 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_LR_18_MNIA  	3.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.79	0  
+CA_GW_18_MNIA  	0.0	white                           	0.11	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+CA_N27_LR      	2.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Left-Cerebellum-Cortex          	 MPM	155
+DD_Desai_MPM   	1.0	Right-Cerebellum-Cortex         	 MPM	173
+DD_Desai_MPM   	2.0	Left-Cerebellum-White-Matter    	 MPM	154
+DD_Desai_MPM   	5.0	Right-Cerebellum-White-Matter   	 MPM	172
+DD_Desai_MPM   	7.0	4th-Ventricle                   	 MPM	161
+DKD_Desai_MPM  	0.0	Left-Cerebellum-Cortex          	 MPM	75 
+DKD_Desai_MPM  	1.0	Right-Cerebellum-Cortex         	 MPM	93 
+DKD_Desai_MPM  	2.0	Left-Cerebellum-White-Matter    	 MPM	74 
+DKD_Desai_MPM  	5.0	Right-Cerebellum-White-Matter   	 MPM	92 
+DKD_Desai_MPM  	7.0	4th-Ventricle                   	 MPM	81 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  13 mm [R],  -72 mm [P],  -26 mm [I]	{TLRC}                                                          
+  13 mm [R],  -72 mm [P],  -35 mm [I]	{MNI} <a href="http://neurosynth.org/locations/13_-72_-35">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=13&ycoord=-72&zcoord=-35&distance=7.5">SumsDB</a>
+  13 mm [R],  -76 mm [P],  -30 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Pyramis                   	 MPM	63 
+TT_Daemon      	1.0	Right Uvula                     	 MPM	62 
+TT_Daemon      	4.0	Right Declive                   	 MPM	65 
+TT_Daemon      	7.0	Right Dentate                   	 MPM	127
+CA_ML_18_MNIA  	0.0	Right Cerebellum                	 ---	104
+CA_ML_18_MNIA  	1.0	Right Cerebellum                	 ---	94 
+CA_ML_18_MNIA  	2.0	Right Cerebellum                	 ---	92 
+CA_ML_18_MNIA  	4.0	Right Cerebellum                	 ---	102
+CA_ML_18_MNIA  	5.0	Right Cerebellum                	 ---	100
+CA_ML_18_MNIA  	6.0	Cerebellar Vermis               	 ---	114
+CA_ML_18_MNIA  	7.0	Cerebellar Vermis               	 ---	113
+CA_MPM_18_MNIA 	2.0	Lobule VIIa Crus I (Hem)        	 ---	248
+CA_MPM_18_MNIA 	2.0	Lobule VIIb (Hem)               	 ---	222
+CA_MPM_18_MNIA 	3.0	Lobule VIIa Crus II (Hem)       	 ---	205
+CA_MPM_18_MNIA 	4.0	Lobule VIIIa (Hem)              	 ---	209
+CA_MPM_18_MNIA 	4.0	Lobule VI (Hem)                 	 ---	170
+CA_MPM_18_MNIA 	5.0	Lobule VIIb (Vermis)            	 ---	220
+CA_MPM_18_MNIA 	5.0	Lobule VIIIa (Vermis)           	 ---	185
+CA_PM_18_MNIA  	0.0	Lobule VIIa Crus II (Hem)       	0.03	50 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.39	0  
+CA_GW_18_MNIA  	0.0	white                           	0.63	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebellum-Cortex         	 MPM	173
+DKD_Desai_MPM  	0.0	Right-Cerebellum-Cortex         	 MPM	93 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -30 mm [L],  -77 mm [P],   -6 mm [I]	{TLRC}                                                          
+ -31 mm [L],  -79 mm [P],  -12 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-30_-79_-11">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-30&ycoord=-79&zcoord=-11&distance=7.5">SumsDB</a>
+ -31 mm [L],  -83 mm [P],   -7 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Lingual Gyrus             	 MPM	232
+TT_Daemon      	1.0	Left  Inferior Occipital Gyrus  	 MPM	228
+TT_Daemon      	1.0	Left  Middle Occipital Gyrus    	 MPM	233
+TT_Daemon      	4.0	Left  Brodmann area 18          	 MPM	295
+TT_Daemon      	5.0	Left  Fusiform Gyrus            	 MPM	227
+TT_Daemon      	5.0	Left  Brodmann area 19          	 MPM	296
+CA_ML_18_MNIA  	0.0	Left Inferior Occipital Gyrus   	 ---	53 
+CA_ML_18_MNIA  	1.0	Left Fusiform Gyrus             	 ---	55 
+CA_ML_18_MNIA  	3.0	Left Lingual Gyrus              	 ---	47 
+CA_ML_18_MNIA  	7.0	Left Cerebellum                 	 ---	91 
+CA_MPM_18_MNIA 	0.0	hOC4v (V4)                      	 ---	162
+CA_PM_18_MNIA  	0.0	hOC3v (V3v)                     	0.10	11 
+CA_PM_18_MNIA  	0.0	hOC4v (V4)                      	0.40	29 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.57	0  
+CA_GW_18_MNIA  	0.0	white                           	0.43	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	7.0	ctx_lh_G_occipital_middle       	 MPM	19 
+DD_Desai_MPM   	7.0	ctx_lh_G_and_S_occipital_inf    	 MPM	2  
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	4.0	ctx-lh-lateraloccipital         	 MPM	11 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  39 mm [R],   47 mm [A],   14 mm [S]	{TLRC}                                                          
+  39 mm [R],   48 mm [A],   18 mm [S]	{MNI} <a href="http://neurosynth.org/locations/39_47_18">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=39&ycoord=47&zcoord=18&distance=7.5">SumsDB</a>
+  39 mm [R],   44 mm [A],   23 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Middle Frontal Gyrus      	 MPM	47 
+TT_Daemon      	0.0	Right Brodmann area 10          	 MPM	90 
+TT_Daemon      	1.0	Right Superior Frontal Gyrus    	 MPM	51 
+TT_Daemon      	2.0	Right Brodmann area 46          	 MPM	122
+CA_ML_18_MNIA  	0.0	Right Middle Frontal Gyrus      	 ---	8  
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.70	0  
+CA_GW_18_MNIA  	0.0	white                           	0.27	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	ctx_rh_G_front_middle           	 MPM	90 
+DD_Desai_MPM   	2.0	Right-Cerebral-White-Matter     	 MPM	169
+DKD_Desai_MPM  	0.0	ctx-rh-rostralmiddlefrontal     	 MPM	62 
+DKD_Desai_MPM  	6.0	Right-Cerebral-White-Matter     	 MPM	89 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -19 mm [L],  -37 mm [P],  -38 mm [I]	{TLRC}                                                          
+ -19 mm [L],  -36 mm [P],  -47 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-19_-35_-47">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-19&ycoord=-35&zcoord=-47&distance=7.5">SumsDB</a>
+ -19 mm [L],  -40 mm [P],  -42 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Cerebellar Tonsil         	 MPM	258
+CA_ML_18_MNIA  	0.0	Left Cerebellum                 	 ---	107
+CA_ML_18_MNIA  	2.0	Left Cerebellum                 	 ---	105
+CA_ML_18_MNIA  	2.0	Left Cerebellum                 	 ---	103
+CA_MPM_18_MNIA 	0.0	Lobule X (Hem)                  	 ---	107
+CA_MPM_18_MNIA 	4.0	Lobule VIIIb (Hem)              	 ---	168
+CA_PM_18_MNIA  	0.0	Lobule X (Hem)                  	0.83	2  
+CA_PM_18_MNIA  	0.0	Lobule IX (Hem)                 	0.04	30 
+CA_PM_18_MNIA  	0.0	Lobule VIIIb (Hem)              	0.02	32 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.74	0  
+CA_GW_18_MNIA  	0.0	white                           	0.10	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebellum-White-Matter    	 MPM	154
+DD_Desai_MPM   	2.0	Left-Cerebellum-Cortex          	 MPM	155
+DKD_Desai_MPM  	0.0	Left-Cerebellum-White-Matter    	 MPM	74 
+DKD_Desai_MPM  	2.0	Left-Cerebellum-Cortex          	 MPM	75 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -13 mm [L],   36 mm [A],   -0 mm [I]	{TLRC}                                                          
+ -13 mm [L],   37 mm [A],    2 mm [S]	{MNI} <a href="http://neurosynth.org/locations/-13_36_1">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-13&ycoord=36&zcoord=1&distance=7.5">SumsDB</a>
+ -13 mm [L],   33 mm [A],    7 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Anterior Cingulate        	 MPM	221
+TT_Daemon      	5.0	Left  Brodmann area 32          	 MPM	308
+TT_Daemon      	6.0	Left  Brodmann area 10          	 MPM	290
+TT_Daemon      	7.0	Left  Medial Frontal Gyrus      	 MPM	252
+TT_Daemon      	7.0	Left  Brodmann area 24          	 MPM	301
+CA_ML_18_MNIA  	4.0	Left Anterior Cingulate Cortex  	 ---	31 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.02	0  
+CA_GW_18_MNIA  	0.0	white                           	0.00	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	5.0	ctx_lh_G_and_S_cingul-Ant       	 MPM	6  
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	7.0	ctx-lh-rostralanteriorcingulate 	 MPM	26 
+DKD_Desai_MPM  	7.0	ctx-lh-medialorbitofrontal      	 MPM	14 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -10 mm [L],   50 mm [A],  -12 mm [I]	{TLRC}                                                          
+ -10 mm [L],   52 mm [A],  -11 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-10_52_-11">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-10&ycoord=52&zcoord=-11&distance=7.5">SumsDB</a>
+ -10 mm [L],   48 mm [A],   -6 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Medial Frontal Gyrus      	 MPM	252
+TT_Daemon      	2.0	Left  Superior Frontal Gyrus    	 MPM	251
+TT_Daemon      	3.0	Left  Brodmann area 11          	 MPM	291
+TT_Daemon      	4.0	Left  Brodmann area 10          	 MPM	290
+TT_Daemon      	6.0	Left  Anterior Cingulate        	 MPM	221
+TT_Daemon      	7.0	Left  Orbital Gyrus             	 MPM	234
+TT_Daemon      	7.0	Left  Brodmann area 32          	 MPM	308
+CA_ML_18_MNIA  	0.0	Left Mid Orbital Gyrus          	 ---	25 
+CA_ML_18_MNIA  	3.0	Left Superior Orbital Gyrus     	 ---	5  
+CA_ML_18_MNIA  	4.0	Left Rectal Gyrus               	 ---	27 
+CA_ML_18_MNIA  	7.0	Left Anterior Cingulate Cortex  	 ---	31 
+CA_ML_18_MNIA  	7.0	Left Middle Orbital Gyrus       	 ---	9  
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.48	0  
+CA_GW_18_MNIA  	0.0	white                           	0.53	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	ctx_lh_G_orbital                	 MPM	24 
+DD_Desai_MPM   	1.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	5.0	ctx_lh_G_rectus                 	 MPM	31 
+DD_Desai_MPM   	7.0	ctx_lh_S_orbital-H_Shaped       	 MPM	65 
+DKD_Desai_MPM  	0.0	ctx-lh-lateralorbitofrontal     	 MPM	12 
+DKD_Desai_MPM  	1.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	4.0	ctx-lh-medialorbitofrontal      	 MPM	14 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -25 mm [L],  -86 mm [P],    8 mm [S]	{TLRC}                                                          
+ -25 mm [L],  -89 mm [P],    5 mm [S]	{MNI} <a href="http://neurosynth.org/locations/-24_-89_4">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-24&ycoord=-89&zcoord=4&distance=7.5">SumsDB</a>
+ -25 mm [L],  -93 mm [P],   10 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Middle Occipital Gyrus    	 MPM	233
+TT_Daemon      	1.0	Left  Brodmann area 19          	 MPM	296
+TT_Daemon      	2.0	Left  Cuneus                    	 MPM	240
+TT_Daemon      	3.0	Left  Brodmann area 18          	 MPM	295
+TT_Daemon      	4.0	Left  Lingual Gyrus             	 MPM	232
+TT_Daemon      	6.0	Left  Brodmann area 17          	 MPM	294
+CA_ML_18_MNIA  	0.0	Left Middle Occipital Gyrus     	 ---	51 
+CA_ML_18_MNIA  	6.0	Left Superior Occipital Gyrus   	 ---	49 
+CA_ML_18_MNIA  	7.0	Left Inferior Occipital Gyrus   	 ---	53 
+CA_MPM_18_MNIA 	4.0	hOC3v (V3v)                     	 ---	125
+CA_MPM_18_MNIA 	6.0	Area 18                         	 ---	240
+CA_MPM_18_MNIA 	7.0	Area 17                         	 ---	181
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.43	0  
+CA_GW_18_MNIA  	0.0	white                           	0.59	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	2.0	ctx_lh_G_occipital_middle       	 MPM	19 
+DKD_Desai_MPM  	0.0	ctx-lh-lateraloccipital         	 MPM	11 
+DKD_Desai_MPM  	1.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	6.0	ctx-lh-inferiorparietal         	 MPM	8  
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -30 mm [L],  -66 mm [P],  -26 mm [I]	{TLRC}                                                          
+ -31 mm [L],  -66 mm [P],  -35 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-30_-66_-35">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-30&ycoord=-66&zcoord=-35&distance=7.5">SumsDB</a>
+ -31 mm [L],  -70 mm [P],  -30 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Uvula                     	 MPM	262
+TT_Daemon      	1.0	Left  Tuber                     	 MPM	264
+TT_Daemon      	1.0	Left  Pyramis                   	 MPM	263
+TT_Daemon      	4.0	Left  Declive                   	 MPM	265
+TT_Daemon      	4.0	Left  Culmen                    	 MPM	266
+TT_Daemon      	5.0	Left  Cerebellar Tonsil         	 MPM	258
+CA_ML_18_MNIA  	0.0	Left Cerebellum                 	 ---	91 
+CA_ML_18_MNIA  	2.0	Left Cerebellum                 	 ---	93 
+CA_ML_18_MNIA  	6.0	Left Cerebellum                 	 ---	99 
+CA_ML_18_MNIA  	6.0	Left Cerebellum                 	 ---	101
+CA_ML_18_MNIA  	7.0	Left Cerebellum                 	 ---	103
+CA_MPM_18_MNIA 	1.0	Lobule VIIa Crus I (Hem)        	 ---	248
+CA_MPM_18_MNIA 	4.0	Lobule VIIa Crus II (Hem)       	 ---	205
+CA_MPM_18_MNIA 	5.0	Lobule VI (Hem)                 	 ---	170
+CA_PM_18_MNIA  	0.0	Lobule VIIa Crus I (Hem)        	0.24	71 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.66	0  
+CA_GW_18_MNIA  	0.0	white                           	0.36	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebellum-Cortex          	 MPM	155
+DKD_Desai_MPM  	0.0	Left-Cerebellum-Cortex          	 MPM	75 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  65 mm [R],  -16 mm [P],  -15 mm [I]	{TLRC}                                                          
+  66 mm [R],  -16 mm [P],  -18 mm [I]	{MNI} <a href="http://neurosynth.org/locations/65_-16_-18">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=65&ycoord=-16&zcoord=-18&distance=7.5">SumsDB</a>
+  66 mm [R],  -20 mm [P],  -13 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Inferior Temporal Gyrus   	 MPM	29 
+TT_Daemon      	1.0	Right Middle Temporal Gyrus     	 MPM	35 
+TT_Daemon      	1.0	Right Brodmann area 21          	 MPM	98 
+TT_Daemon      	2.0	Right Brodmann area 20          	 MPM	97 
+CA_ML_18_MNIA  	0.0	Right Middle Temporal Gyrus     	 ---	86 
+CA_ML_18_MNIA  	4.0	Right Inferior Temporal Gyrus   	 ---	90 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.68	0  
+CA_GW_18_MNIA  	0.0	white                           	0.31	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	ctx_rh_G_temporal_middle        	 MPM	113
+DKD_Desai_MPM  	0.0	ctx-rh-middletemporal           	 MPM	50 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  28 mm [R],  -46 mm [P],    8 mm [S]	{TLRC}                                                          
+  28 mm [R],  -47 mm [P],    7 mm [S]	{MNI} <a href="http://neurosynth.org/locations/27_-47_6">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=27&ycoord=-47&zcoord=6&distance=7.5">SumsDB</a>
+  28 mm [R],  -51 mm [P],   12 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Parahippocampal Gyrus     	 MPM	31 
+TT_Daemon      	4.0	Right Hippocampus               	 MPM	68 
+TT_Daemon      	6.0	Right Caudate                   	 MPM	77 
+TT_Daemon      	6.0	Right Caudate Tail              	 MPM	124
+TT_Daemon      	7.0	Right Brodmann area 30          	 MPM	106
+CA_ML_18_MNIA  	0.0	Right Precuneus                 	 ---	68 
+CA_ML_18_MNIA  	2.0	Right Calcarine Gyrus           	 ---	44 
+CA_ML_18_MNIA  	7.0	Right Hippocampus               	 ---	38 
+CA_MPM_18_MNIA 	4.0	Area 18                         	 ---	240
+CA_MPM_18_MNIA 	6.0	Area 17                         	 ---	181
+CA_MPM_18_MNIA 	7.0	Hipp (CA)                       	 ---	123
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.31	0  
+CA_GW_18_MNIA  	0.0	white                           	0.12	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	1.0	Right-Lateral-Ventricle         	 MPM	170
+DKD_Desai_MPM  	0.0	Right-Cerebral-White-Matter     	 MPM	89 
+DKD_Desai_MPM  	1.0	Right-Lateral-Ventricle         	 MPM	90 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -28 mm [L],  -40 mm [P],   26 mm [S]	{TLRC}                                                          
+ -28 mm [L],  -42 mm [P],   26 mm [S]	{MNI} <a href="http://neurosynth.org/locations/-27_-42_26">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-27&ycoord=-42&zcoord=26&distance=7.5">SumsDB</a>
+ -28 mm [L],  -46 mm [P],   31 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Inferior Parietal Lobule  	 MPM	244
+TT_Daemon      	6.0	Left  Insula                    	 MPM	230
+TT_Daemon      	6.0	Left  Brodmann area 13          	 MPM	293
+CA_MPM_18_MNIA 	7.0	hIP1                            	 ---	103
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.01	0  
+CA_GW_18_MNIA  	0.0	white                           	0.00	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  10 mm [R],   21 mm [A],  -12 mm [I]	{TLRC}                                                          
+  10 mm [R],   22 mm [A],  -13 mm [I]	{MNI} <a href="http://neurosynth.org/locations/10_22_-12">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=10&ycoord=22&zcoord=-12&distance=7.5">SumsDB</a>
+  10 mm [R],   18 mm [A],   -8 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Subcallosal Gyrus         	 MPM	22 
+TT_Daemon      	1.0	Right Brodmann area 25          	 MPM	102
+TT_Daemon      	2.0	Right Anterior Cingulate        	 MPM	21 
+TT_Daemon      	2.0	Right Medial Frontal Gyrus      	 MPM	52 
+TT_Daemon      	2.0	Right Brodmann area 11          	 MPM	91 
+TT_Daemon      	5.0	Right Inferior Frontal Gyrus    	 MPM	39 
+TT_Daemon      	6.0	Right Caudate                   	 MPM	77 
+TT_Daemon      	7.0	Right Rectal Gyrus              	 MPM	26 
+CA_ML_18_MNIA  	0.0	Right Rectal Gyrus              	 ---	28 
+CA_ML_18_MNIA  	1.0	Right Mid Orbital Gyrus         	 ---	26 
+CA_ML_18_MNIA  	1.0	Right Olfactory cortex          	 ---	22 
+CA_ML_18_MNIA  	5.0	Right Anterior Cingulate Cortex 	 ---	32 
+CA_ML_18_MNIA  	5.0	Right Caudate Nucleus           	 ---	72 
+CA_ML_18_MNIA  	6.0	Right Superior Orbital Gyrus    	 ---	6  
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.27	0  
+CA_GW_18_MNIA  	0.0	white                           	0.75	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	1.0	ctx_rh_S_orbital_med-olfact     	 MPM	139
+DD_Desai_MPM   	3.0	ctx_rh_G_orbital                	 MPM	99 
+DD_Desai_MPM   	4.0	ctx_rh_G_rectus                 	 MPM	106
+DD_Desai_MPM   	7.0	ctx_rh_G_subcallosal            	 MPM	107
+DD_Desai_MPM   	7.0	ctx_rh_G_and_S_cingul-Ant       	 MPM	81 
+DD_Desai_MPM   	7.0	ctx_rh_Medial_wall              	 MPM	117
+DKD_Desai_MPM  	0.0	Right-Cerebral-White-Matter     	 MPM	89 
+DKD_Desai_MPM  	1.0	ctx-rh-lateralorbitofrontal     	 MPM	47 
+DKD_Desai_MPM  	2.0	ctx-rh-medialorbitofrontal      	 MPM	49 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  30 mm [R],  -83 mm [P],   14 mm [S]	{TLRC}                                                          
+  31 mm [R],  -86 mm [P],   11 mm [S]	{MNI} <a href="http://neurosynth.org/locations/30_-86_11">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=30&ycoord=-86&zcoord=11&distance=7.5">SumsDB</a>
+  31 mm [R],  -90 mm [P],   16 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Middle Occipital Gyrus    	 MPM	33 
+TT_Daemon      	3.0	Right Cuneus                    	 MPM	40 
+TT_Daemon      	4.0	Right Brodmann area 19          	 MPM	96 
+TT_Daemon      	5.0	Right Brodmann area 18          	 MPM	95 
+CA_ML_18_MNIA  	0.0	Right Middle Occipital Gyrus    	 ---	52 
+CA_ML_18_MNIA  	4.0	Right Superior Occipital Gyrus  	 ---	50 
+CA_MPM_18_MNIA 	6.0	Area 18                         	 ---	240
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.50	0  
+CA_GW_18_MNIA  	0.0	white                           	0.51	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	1.0	ctx_rh_G_occipital_middle       	 MPM	94 
+DD_Desai_MPM   	6.0	ctx_rh_G_occipital_sup          	 MPM	95 
+DD_Desai_MPM   	7.0	ctx_rh_S_oc_sup_and_transversal 	 MPM	134
+DKD_Desai_MPM  	0.0	ctx-rh-lateraloccipital         	 MPM	46 
+DKD_Desai_MPM  	1.0	ctx-rh-inferiorparietal         	 MPM	43 
+DKD_Desai_MPM  	1.0	Right-Cerebral-White-Matter     	 MPM	89 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  16 mm [R],  -43 mm [P],   20 mm [S]	{TLRC}                                                          
+  16 mm [R],  -45 mm [P],   20 mm [S]	{MNI} <a href="http://neurosynth.org/locations/16_-44_19">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=16&ycoord=-44&zcoord=19&distance=7.5">SumsDB</a>
+  16 mm [R],  -49 mm [P],   25 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Posterior Cingulate       	 MPM	20 
+TT_Daemon      	6.0	Right Cingulate Gyrus           	 MPM	43 
+TT_Daemon      	6.0	Right Brodmann area 31          	 MPM	107
+TT_Daemon      	7.0	Right Brodmann area 29          	 MPM	105
+CA_ML_18_MNIA  	2.0	Right Posterior Cingulate Cortex	 ---	36 
+CA_ML_18_MNIA  	3.0	Right Precuneus                 	 ---	68 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.00	0  
+CA_GW_18_MNIA  	0.0	white                           	0.00	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	6.0	Right-Lateral-Ventricle         	 MPM	170
+DKD_Desai_MPM  	0.0	Right-Cerebral-White-Matter     	 MPM	89 
+DKD_Desai_MPM  	6.0	Right-Lateral-Ventricle         	 MPM	90 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+   4 mm [R],  -69 mm [P],   43 mm [S]	{TLRC}                                                          
+   4 mm [R],  -73 mm [P],   43 mm [S]	{MNI} <a href="http://neurosynth.org/locations/4_-72_43">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=4&ycoord=-72&zcoord=43&distance=7.5">SumsDB</a>
+   4 mm [R],  -77 mm [P],   48 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Precuneus                 	 MPM	45 
+TT_Daemon      	0.0	Right Brodmann area 7           	 MPM	87 
+TT_Daemon      	4.0	Left  Precuneus                 	 MPM	245
+TT_Daemon      	5.0	Left  Brodmann area 7           	 MPM	287
+CA_ML_18_MNIA  	0.0	Right Precuneus                 	 ---	68 
+CA_ML_18_MNIA  	1.0	Left Precuneus                  	 ---	67 
+CA_ML_18_MNIA  	5.0	Right Cuneus                    	 ---	46 
+CA_MPM_18_MNIA 	0.0	SPL (7M)                        	 ---	105
+CA_MPM_18_MNIA 	4.0	SPL (7A)                        	 ---	152
+CA_MPM_18_MNIA 	4.0	SPL (7P)                        	 ---	230
+CA_PM_18_MNIA  	0.0	SPL (7M)                        	0.70	1  
+CA_PM_18_MNIA  	0.0	SPL (7A)                        	0.10	24 
+CA_PM_18_MNIA  	0.0	SPL (7P)                        	0.30	62 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_LR_18_MNIA  	2.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.74	0  
+CA_GW_18_MNIA  	0.0	white                           	0.17	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+CA_N27_LR      	2.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	ctx_rh_G_precuneus              	 MPM	105
+DD_Desai_MPM   	4.0	ctx_lh_G_precuneus              	 MPM	30 
+DD_Desai_MPM   	5.0	Right-Cerebral-White-Matter     	 MPM	169
+DKD_Desai_MPM  	0.0	ctx-rh-precuneus                	 MPM	60 
+DKD_Desai_MPM  	3.0	ctx-rh-superiorparietal         	 MPM	64 
+DKD_Desai_MPM  	4.0	ctx-lh-precuneus                	 MPM	25 
+DKD_Desai_MPM  	4.0	Right-Cerebral-White-Matter     	 MPM	89 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+   1 mm [R],   62 mm [A],   -6 mm [I]	{TLRC}                                                          
+   1 mm [R],   64 mm [A],   -3 mm [I]	{MNI} <a href="http://neurosynth.org/locations/1_63_-3">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=1&ycoord=63&zcoord=-3&distance=7.5">SumsDB</a>
+   1 mm [L],   60 mm [A],    2 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+EmilyRat       	6.0	Left retrosplenial Cx           	 MPM	42 
+EmilyRat       	7.0	Right retrosplenial Cx          	 MPM	41 
+EmilyRat       	7.0	Right visual Cx                 	 MPM	47 
+EmilyRat       	7.0	Left visual Cx                  	 MPM	48 
+TT_Daemon      	0.0	Right Medial Frontal Gyrus      	 MPM	52 
+TT_Daemon      	2.0	Right Brodmann area 10          	 MPM	90 
+TT_Daemon      	3.0	Left  Medial Frontal Gyrus      	 MPM	252
+TT_Daemon      	3.0	Left  Brodmann area 10          	 MPM	290
+TT_Daemon      	4.0	Right Superior Frontal Gyrus    	 MPM	51 
+TT_Daemon      	5.0	Left  Superior Frontal Gyrus    	 MPM	251
+TT_Daemon      	7.0	Right Anterior Cingulate        	 MPM	21 
+TT_Daemon      	7.0	Left  Anterior Cingulate        	 MPM	221
+CA_ML_18_MNIA  	0.0	Left Mid Orbital Gyrus          	 ---	25 
+CA_ML_18_MNIA  	3.0	Right Mid Orbital Gyrus         	 ---	26 
+CA_ML_18_MNIA  	3.0	Left Superior Medial Gyrus      	 ---	23 
+CA_ML_18_MNIA  	4.0	Right Superior Medial Gyrus     	 ---	24 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_LR_18_MNIA  	2.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.22	0  
+CA_GW_18_MNIA  	0.0	white                           	0.00	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+CA_N27_LR      	2.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	ctx_lh_G_rectus                 	 MPM	31 
+DD_Desai_MPM   	1.0	ctx_rh_G_and_S_frontomargin     	 MPM	76 
+DD_Desai_MPM   	1.0	ctx_rh_G_front_sup              	 MPM	91 
+DD_Desai_MPM   	4.0	ctx_rh_G_and_S_transv_frontopol 	 MPM	80 
+DD_Desai_MPM   	5.0	ctx_lh_G_and_S_transv_frontopol 	 MPM	5  
+DD_Desai_MPM   	6.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	6.0	ctx_rh_G_rectus                 	 MPM	106
+DD_Desai_MPM   	7.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	7.0	ctx_lh_G_and_S_frontomargin     	 MPM	1  
+DKD_Desai_MPM  	0.0	ctx-rh-frontalpole              	 MPM	67 
+DKD_Desai_MPM  	1.0	ctx-lh-frontalpole              	 MPM	32 
+DKD_Desai_MPM  	2.0	ctx-lh-medialorbitofrontal      	 MPM	14 
+DKD_Desai_MPM  	3.0	ctx-rh-medialorbitofrontal      	 MPM	49 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  -7 mm [L],  -98 mm [P],   -3 mm [I]	{TLRC}                                                          
+  -7 mm [L], -100 mm [P],   -9 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-7_-100_-9">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-7&ycoord=-100&zcoord=-9&distance=7.5">SumsDB</a>
+  -7 mm [L], -104 mm [P],   -4 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Lingual Gyrus             	 MPM	232
+TT_Daemon      	0.0	Left  Brodmann area 18          	 MPM	295
+TT_Daemon      	1.0	Left  Cuneus                    	 MPM	240
+TT_Daemon      	1.0	Left  Brodmann area 17          	 MPM	294
+CA_ML_18_MNIA  	0.0	Left Calcarine Gyrus            	 ---	43 
+CA_ML_18_MNIA  	2.0	Left Inferior Occipital Gyrus   	 ---	53 
+CA_ML_18_MNIA  	3.0	Left Middle Occipital Gyrus     	 ---	51 
+CA_ML_18_MNIA  	5.0	Left Lingual Gyrus              	 ---	47 
+CA_MPM_18_MNIA 	0.0	Area 17                         	 ---	181
+CA_MPM_18_MNIA 	3.0	Area 18                         	 ---	240
+CA_PM_18_MNIA  	0.0	hOC3v (V3v)                     	0.10	11 
+CA_PM_18_MNIA  	0.0	Area 17                         	0.70	38 
+CA_PM_18_MNIA  	0.0	Area 18                         	0.30	67 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.68	0  
+CA_GW_18_MNIA  	0.0	white                           	0.29	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	ctx_lh_Pole_occipital           	 MPM	43 
+DD_Desai_MPM   	4.0	Left-Cerebral-White-Matter      	 MPM	151
+DKD_Desai_MPM  	0.0	ctx-lh-lateraloccipital         	 MPM	11 
+DKD_Desai_MPM  	4.0	Left-Cerebral-White-Matter      	 MPM	71 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  30 mm [R],  -77 mm [P],   -0 mm [I]	{TLRC}                                                          
+  31 mm [R],  -80 mm [P],   -5 mm [I]	{MNI} <a href="http://neurosynth.org/locations/30_-79_-4">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=30&ycoord=-79&zcoord=-4&distance=7.5">SumsDB</a>
+  31 mm [R],  -84 mm [P],    0 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Middle Occipital Gyrus    	 MPM	33 
+TT_Daemon      	3.0	Right Lingual Gyrus             	 MPM	32 
+TT_Daemon      	3.0	Right Inferior Occipital Gyrus  	 MPM	28 
+TT_Daemon      	5.0	Right Brodmann area 18          	 MPM	95 
+TT_Daemon      	6.0	Right Brodmann area 19          	 MPM	96 
+CA_ML_18_MNIA  	0.0	Right Fusiform Gyrus            	 ---	56 
+CA_ML_18_MNIA  	1.0	Right Inferior Occipital Gyrus  	 ---	54 
+CA_ML_18_MNIA  	4.0	Right Middle Occipital Gyrus    	 ---	52 
+CA_ML_18_MNIA  	6.0	Right Lingual Gyrus             	 ---	48 
+CA_MPM_18_MNIA 	0.0	hOC4v (V4)                      	 ---	162
+CA_MPM_18_MNIA 	3.0	hOC3v (V3v)                     	 ---	125
+CA_MPM_18_MNIA 	7.0	Area 18                         	 ---	240
+CA_PM_18_MNIA  	0.0	hOC3v (V3v)                     	0.10	11 
+CA_PM_18_MNIA  	0.0	hOC4v (V4)                      	0.40	29 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.14	0  
+CA_GW_18_MNIA  	0.0	white                           	0.87	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	7.0	ctx_rh_G_occipital_middle       	 MPM	94 
+DKD_Desai_MPM  	0.0	Right-Cerebral-White-Matter     	 MPM	89 
+DKD_Desai_MPM  	3.0	ctx-rh-lateraloccipital         	 MPM	46 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -22 mm [L],   50 mm [A],    3 mm [S]	{TLRC}                                                          
+ -22 mm [L],   52 mm [A],    6 mm [S]	{MNI} <a href="http://neurosynth.org/locations/-22_51_5">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-22&ycoord=51&zcoord=5&distance=7.5">SumsDB</a>
+ -22 mm [L],   48 mm [A],   11 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Superior Frontal Gyrus    	 MPM	251
+TT_Daemon      	1.0	Left  Brodmann area 10          	 MPM	290
+TT_Daemon      	2.0	Left  Middle Frontal Gyrus      	 MPM	247
+TT_Daemon      	4.0	Left  Medial Frontal Gyrus      	 MPM	252
+TT_Daemon      	6.0	Left  Anterior Cingulate        	 MPM	221
+TT_Daemon      	7.0	Left  Brodmann area 32          	 MPM	308
+CA_ML_18_MNIA  	0.0	Left Superior Frontal Gyrus     	 ---	3  
+CA_ML_18_MNIA  	1.0	Left Middle Frontal Gyrus       	 ---	7  
+CA_ML_18_MNIA  	6.0	Left Superior Medial Gyrus      	 ---	23 
+CA_ML_18_MNIA  	7.0	Left Superior Orbital Gyrus     	 ---	5  
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.28	0  
+CA_GW_18_MNIA  	0.0	white                           	0.73	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	3.0	ctx_lh_G_and_S_frontomargin     	 MPM	1  
+DD_Desai_MPM   	7.0	ctx_lh_S_orbital-H_Shaped       	 MPM	65 
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	2.0	ctx-lh-rostralmiddlefrontal     	 MPM	27 
+DKD_Desai_MPM  	7.0	ctx-lh-lateralorbitofrontal     	 MPM	12 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  19 mm [R],  -46 mm [P],  -26 mm [I]	{TLRC}                                                          
+  19 mm [R],  -45 mm [P],  -34 mm [I]	{MNI} <a href="http://neurosynth.org/locations/18_-45_-33">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=18&ycoord=-45&zcoord=-33&distance=7.5">SumsDB</a>
+  19 mm [R],  -49 mm [P],  -29 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Culmen                    	 MPM	66 
+TT_Daemon      	2.0	Right Dentate                   	 MPM	127
+TT_Daemon      	4.0	Right Cerebellar Tonsil         	 MPM	58 
+CA_ML_18_MNIA  	6.0	Right Cerebellum                	 ---	106
+CA_ML_18_MNIA  	6.0	Right Cerebellum                	 ---	98 
+CA_ML_18_MNIA  	6.0	Right Cerebellum                	 ---	100
+CA_MPM_18_MNIA 	5.0	Lobule VI (Hem)                 	 ---	170
+CA_MPM_18_MNIA 	5.0	Lobule V                        	 ---	109
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.30	0  
+CA_GW_18_MNIA  	0.0	white                           	0.71	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebellum-White-Matter   	 MPM	172
+DD_Desai_MPM   	1.0	Right-Cerebellum-Cortex         	 MPM	173
+DKD_Desai_MPM  	0.0	Right-Cerebellum-White-Matter   	 MPM	92 
+DKD_Desai_MPM  	1.0	Right-Cerebellum-Cortex         	 MPM	93 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -51 mm [L],   -5 mm [P],  -20 mm [I]	{TLRC}                                                          
+ -51 mm [L],   -4 mm [P],  -25 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-51_-3_-24">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-51&ycoord=-3&zcoord=-24&distance=7.5">SumsDB</a>
+ -51 mm [L],   -8 mm [P],  -20 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+EmilyRat       	6.0	Right entorhinal Cx             	 MPM	45 
+EmilyRat       	7.0	Right auditory Cx               	 MPM	43 
+EmilyRat       	7.0	Right subiculum                 	 MPM	80 
+TT_Daemon      	0.0	Left  Middle Temporal Gyrus     	 MPM	235
+TT_Daemon      	0.0	Left  Brodmann area 21          	 MPM	298
+TT_Daemon      	1.0	Left  Inferior Temporal Gyrus   	 MPM	229
+TT_Daemon      	1.0	Left  Brodmann area 20          	 MPM	297
+TT_Daemon      	2.0	Left  Fusiform Gyrus            	 MPM	227
+CA_ML_18_MNIA  	0.0	Left Middle Temporal Gyrus      	 ---	85 
+CA_ML_18_MNIA  	2.0	Left Inferior Temporal Gyrus    	 ---	89 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.49	0  
+CA_GW_18_MNIA  	0.0	white                           	0.51	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	ctx_lh_G_temporal_middle        	 MPM	38 
+DD_Desai_MPM   	1.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	3.0	ctx_lh_G_temporal_inf           	 MPM	37 
+DD_Desai_MPM   	7.0	ctx_lh_S_temporal_sup           	 MPM	74 
+DKD_Desai_MPM  	0.0	ctx-lh-middletemporal           	 MPM	15 
+DKD_Desai_MPM  	2.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	3.0	ctx-lh-inferiortemporal         	 MPM	9  
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -22 mm [L],   15 mm [A],  -15 mm [I]	{TLRC}                                                          
+ -22 mm [L],   17 mm [A],  -16 mm [I]	{MNI} <a href="http://neurosynth.org/locations/-22_16_-16">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-22&ycoord=16&zcoord=-16&distance=7.5">SumsDB</a>
+ -22 mm [L],   13 mm [A],  -11 mm [I]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Inferior Frontal Gyrus    	 MPM	239
+TT_Daemon      	0.0	Left  Brodmann area 47          	 MPM	323
+TT_Daemon      	2.0	Left  Subcallosal Gyrus         	 MPM	222
+TT_Daemon      	3.0	Left  Brodmann area 13          	 MPM	293
+TT_Daemon      	6.0	Left  Lentiform Nucleus         	 MPM	270
+TT_Daemon      	6.0	Left  Putamen                   	 MPM	351
+TT_Daemon      	7.0	Left  Medial Frontal Gyrus      	 MPM	252
+TT_Daemon      	7.0	Left  Brodmann area 25          	 MPM	302
+CA_ML_18_MNIA  	0.0	Left Inferior Frontal Gyrus (p. Orbitalis)	 ---	15 
+CA_ML_18_MNIA  	2.0	Left Superior Orbital Gyrus     	 ---	5  
+CA_ML_18_MNIA  	2.0	Left Insula Lobe                	 ---	29 
+CA_ML_18_MNIA  	4.0	Left Rectal Gyrus               	 ---	27 
+CA_ML_18_MNIA  	6.0	Left Olfactory cortex           	 ---	21 
+CA_ML_18_MNIA  	6.0	Left Putamen                    	 ---	73 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.23	0  
+CA_GW_18_MNIA  	0.0	white                           	0.78	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	ctx_lh_G_orbital                	 MPM	24 
+DD_Desai_MPM   	2.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	6.0	ctx_lh_Medial_wall              	 MPM	42 
+DD_Desai_MPM   	6.0	ctx_lh_S_circular_insula_ant    	 MPM	48 
+DD_Desai_MPM   	7.0	ctx_lh_G_temp_sup-Plan_polar    	 MPM	35 
+DD_Desai_MPM   	7.0	ctx_lh_Pole_temporal            	 MPM	44 
+DKD_Desai_MPM  	0.0	ctx-lh-lateralorbitofrontal     	 MPM	12 
+DKD_Desai_MPM  	3.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	6.0	ctx-lh-insula                   	 MPM	35 
+DKD_Desai_MPM  	6.0	ctx-lh-temporalpole             	 MPM	33 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  42 mm [R],   53 mm [A],   -0 mm [I]	{TLRC}                                                          
+  42 mm [R],   55 mm [A],    3 mm [S]	{MNI} <a href="http://neurosynth.org/locations/42_54_2">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=42&ycoord=54&zcoord=2&distance=7.5">SumsDB</a>
+  42 mm [R],   51 mm [A],    8 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Inferior Frontal Gyrus    	 MPM	39 
+TT_Daemon      	0.0	Right Brodmann area 10          	 MPM	90 
+TT_Daemon      	1.0	Right Middle Frontal Gyrus      	 MPM	47 
+TT_Daemon      	6.0	Right Superior Frontal Gyrus    	 MPM	51 
+TT_Daemon      	7.0	Right Brodmann area 46          	 MPM	122
+CA_ML_18_MNIA  	0.0	Right Middle Frontal Gyrus      	 ---	8  
+CA_ML_18_MNIA  	4.0	Right Middle Orbital Gyrus      	 ---	10 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.80	0  
+CA_GW_18_MNIA  	0.0	white                           	0.12	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	ctx_rh_G_orbital                	 MPM	99 
+DD_Desai_MPM   	4.0	ctx_rh_G_front_middle           	 MPM	90 
+DD_Desai_MPM   	5.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	7.0	ctx_rh_G_and_S_frontomargin     	 MPM	76 
+DKD_Desai_MPM  	0.0	ctx-rh-rostralmiddlefrontal     	 MPM	62 
+DKD_Desai_MPM  	2.0	ctx-rh-parsorbitalis            	 MPM	54 
+DKD_Desai_MPM  	6.0	Right-Cerebral-White-Matter     	 MPM	89 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  36 mm [R],   42 mm [A],    8 mm [S]	{TLRC}                                                          
+  37 mm [R],   42 mm [A],   11 mm [S]	{MNI} <a href="http://neurosynth.org/locations/36_42_11">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=36&ycoord=42&zcoord=11&distance=7.5">SumsDB</a>
+  37 mm [R],   38 mm [A],   16 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Middle Frontal Gyrus      	 MPM	47 
+TT_Daemon      	4.0	Right Brodmann area 10          	 MPM	90 
+TT_Daemon      	5.0	Right Brodmann area 46          	 MPM	122
+TT_Daemon      	6.0	Right Inferior Frontal Gyrus    	 MPM	39 
+TT_Daemon      	6.0	Right Superior Frontal Gyrus    	 MPM	51 
+CA_ML_18_MNIA  	0.0	Right Middle Frontal Gyrus      	 ---	8  
+CA_ML_18_MNIA  	5.0	Right Inferior Frontal Gyrus (p. Triangularis)	 ---	14 
+CA_ML_18_MNIA  	6.0	Right Superior Frontal Gyrus    	 ---	4  
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.39	0  
+CA_GW_18_MNIA  	0.0	white                           	0.63	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	5.0	ctx_rh_G_front_middle           	 MPM	90 
+DKD_Desai_MPM  	0.0	Right-Cerebral-White-Matter     	 MPM	89 
+DKD_Desai_MPM  	2.0	ctx-rh-rostralmiddlefrontal     	 MPM	62 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -25 mm [L],  -46 mm [P],   20 mm [S]	{TLRC}                                                          
+ -25 mm [L],  -48 mm [P],   19 mm [S]	{MNI} <a href="http://neurosynth.org/locations/-24_-47_19">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-24&ycoord=-47&zcoord=19&distance=7.5">SumsDB</a>
+ -25 mm [L],  -52 mm [P],   24 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+CA_ML_18_MNIA  	7.0	Left Precuneus                  	 ---	67 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.15	0  
+CA_GW_18_MNIA  	0.0	white                           	0.71	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	7.0	Left-Lateral-Ventricle          	 MPM	152
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	7.0	Left-Lateral-Ventricle          	 MPM	72 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  28 mm [R],   59 mm [A],   20 mm [S]	{TLRC}                                                          
+  28 mm [R],   60 mm [A],   25 mm [S]	{MNI} <a href="http://neurosynth.org/locations/27_59_25">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=27&ycoord=59&zcoord=25&distance=7.5">SumsDB</a>
+  28 mm [R],   56 mm [A],   30 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Middle Frontal Gyrus      	 MPM	47 
+TT_Daemon      	0.0	Right Brodmann area 10          	 MPM	90 
+TT_Daemon      	2.0	Right Superior Frontal Gyrus    	 MPM	51 
+TT_Daemon      	6.0	Right Brodmann area 9           	 MPM	89 
+CA_ML_18_MNIA  	0.0	Right Middle Frontal Gyrus      	 ---	8  
+CA_ML_18_MNIA  	4.0	Right Superior Frontal Gyrus    	 ---	4  
+CA_LR_18_MNIA  	1.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.22	0  
+CA_GW_18_MNIA  	0.0	white                           	0.01	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	ctx_rh_G_and_S_transv_frontopol 	 MPM	80 
+DD_Desai_MPM   	1.0	ctx_rh_G_front_middle           	 MPM	90 
+DD_Desai_MPM   	6.0	ctx_rh_S_front_middle           	 MPM	129
+DD_Desai_MPM   	6.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	7.0	ctx_rh_G_front_sup              	 MPM	91 
+DKD_Desai_MPM  	0.0	ctx-rh-rostralmiddlefrontal     	 MPM	62 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -36 mm [L],  -40 mm [P],   32 mm [S]	{TLRC}                                                          
+ -37 mm [L],  -43 mm [P],   32 mm [S]	{MNI} <a href="http://neurosynth.org/locations/-36_-42_32">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-36&ycoord=-42&zcoord=32&distance=7.5">SumsDB</a>
+ -37 mm [L],  -47 mm [P],   37 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Supramarginal Gyrus       	 MPM	242
+TT_Daemon      	3.0	Left  Inferior Parietal Lobule  	 MPM	244
+TT_Daemon      	3.0	Left  Brodmann area 40          	 MPM	316
+CA_ML_18_MNIA  	5.0	Left Angular Gyrus              	 ---	65 
+CA_ML_18_MNIA  	5.0	Left Inferior Parietal Lobule   	 ---	61 
+CA_ML_18_MNIA  	6.0	Left SupraMarginal Gyrus        	 ---	63 
+CA_MPM_18_MNIA 	1.0	hIP1                            	 ---	103
+CA_MPM_18_MNIA 	4.0	hIP2                            	 ---	228
+CA_MPM_18_MNIA 	7.0	hIP3                            	 ---	207
+CA_MPM_18_MNIA 	7.0	IPC (PFcm)                      	 ---	224
+CA_PM_18_MNIA  	0.0	hIP1                            	0.30	0  
+CA_PM_18_MNIA  	0.0	hIP2                            	0.10	61 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.04	0  
+CA_GW_18_MNIA  	0.0	white                           	0.98	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	5.0	ctx_lh_S_postcentral            	 MPM	68 
+DD_Desai_MPM   	7.0	ctx_lh_S_intrapariet_and_P_trans	 MPM	57 
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  10 mm [R],  -66 mm [P],   35 mm [S]	{TLRC}                                                          
+  10 mm [R],  -70 mm [P],   34 mm [S]	{MNI} <a href="http://neurosynth.org/locations/10_-69_34">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=10&ycoord=-69&zcoord=34&distance=7.5">SumsDB</a>
+  10 mm [R],  -74 mm [P],   39 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Precuneus                 	 MPM	45 
+TT_Daemon      	1.0	Right Brodmann area 7           	 MPM	87 
+TT_Daemon      	2.0	Right Cuneus                    	 MPM	40 
+TT_Daemon      	6.0	Right Brodmann area 31          	 MPM	107
+CA_ML_18_MNIA  	0.0	Right Precuneus                 	 ---	68 
+CA_ML_18_MNIA  	2.0	Right Cuneus                    	 ---	46 
+CA_ML_18_MNIA  	7.0	Left Precuneus                  	 ---	67 
+CA_ML_18_MNIA  	7.0	Left Cuneus                     	 ---	45 
+CA_MPM_18_MNIA 	3.0	SPL (7M)                        	 ---	105
+CA_MPM_18_MNIA 	7.0	SPL (7P)                        	 ---	230
+CA_PM_18_MNIA  	0.0	SPL (7M)                        	0.10	1  
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_LR_18_MNIA  	7.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.63	0  
+CA_GW_18_MNIA  	0.0	white                           	0.32	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	3.0	ctx_rh_G_precuneus              	 MPM	105
+DKD_Desai_MPM  	0.0	Right-Cerebral-White-Matter     	 MPM	89 
+DKD_Desai_MPM  	2.0	ctx-rh-precuneus                	 MPM	60 
+DKD_Desai_MPM  	6.0	ctx-rh-superiorparietal         	 MPM	64 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -25 mm [L],  -22 mm [P],   40 mm [S]	{TLRC}                                                          
+ -25 mm [L],  -25 mm [P],   43 mm [S]	{MNI} <a href="http://neurosynth.org/locations/-24_-24_42">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=-24&ycoord=-24&zcoord=42&distance=7.5">SumsDB</a>
+ -25 mm [L],  -29 mm [P],   48 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Left  Cingulate Gyrus           	 MPM	243
+TT_Daemon      	6.0	Left  Precentral Gyrus          	 MPM	250
+TT_Daemon      	6.0	Left  Postcentral Gyrus         	 MPM	249
+TT_Daemon      	6.0	Left  Brodmann area 3           	 MPM	283
+TT_Daemon      	6.0	Left  Brodmann area 4           	 MPM	284
+TT_Daemon      	7.0	Left  Middle Frontal Gyrus      	 MPM	247
+TT_Daemon      	7.0	Left  Brodmann area 31          	 MPM	307
+TT_Daemon      	7.0	Left  Brodmann area 24          	 MPM	301
+CA_ML_18_MNIA  	7.0	Left Postcentral Gyrus          	 ---	57 
+CA_ML_18_MNIA  	7.0	Left Precentral Gyrus           	 ---	1  
+CA_MPM_18_MNIA 	2.0	Area 3a                         	 ---	250
+CA_MPM_18_MNIA 	4.0	Area 4p                         	 ---	119
+CA_MPM_18_MNIA 	6.0	Area 6                          	 ---	176
+CA_PM_18_MNIA  	0.0	Area 4p                         	0.10	8  
+CA_PM_18_MNIA  	0.0	Area 3a                         	0.20	72 
+CA_LR_18_MNIA  	0.0	Left Brain                      	 ---	2  
+CA_GW_18_MNIA  	0.0	grey                            	0.00	0  
+CA_GW_18_MNIA  	0.0	white                           	0.00	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  25 mm [R],  -63 mm [P],   55 mm [S]	{TLRC}                                                          
+  25 mm [R],  -68 mm [P],   56 mm [S]	{MNI} <a href="http://neurosynth.org/locations/24_-67_56">NeuroSynth</a> <a href="http://sumsdb.wustl.edu/sums/celldatasearch.do?type=sumsdb_cell_data&xcoord=24&ycoord=-67&zcoord=56&distance=7.5">SumsDB</a>
+  25 mm [R],  -72 mm [P],   61 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+TT_Daemon      	0.0	Right Superior Parietal Lobule  	 MPM	46 
+TT_Daemon      	0.0	Right Brodmann area 7           	 MPM	87 
+TT_Daemon      	4.0	Right Precuneus                 	 MPM	45 
+CA_ML_18_MNIA  	0.0	Right Superior Parietal Lobule  	 ---	60 
+CA_ML_18_MNIA  	7.0	Right Superior Occipital Gyrus  	 ---	50 
+CA_MPM_18_MNIA 	0.0	SPL (7P)                        	 ---	230
+CA_MPM_18_MNIA 	1.0	SPL (7A)                        	 ---	152
+CA_MPM_18_MNIA 	7.0	IPC (PGp)                       	 ---	234
+CA_PM_18_MNIA  	0.0	SPL (7A)                        	0.40	24 
+CA_PM_18_MNIA  	0.0	hIP3                            	0.10	51 
+CA_PM_18_MNIA  	0.0	SPL (7P)                        	0.40	62 
+CA_LR_18_MNIA  	0.0	Right Brain                     	 ---	1  
+CA_GW_18_MNIA  	0.0	grey                            	0.56	0  
+CA_GW_18_MNIA  	0.0	white                           	0.33	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+DD_Desai_MPM   	0.0	ctx_rh_G_parietal_sup           	 MPM	102
+DD_Desai_MPM   	5.0	Right-Cerebral-White-Matter     	 MPM	169
+DKD_Desai_MPM  	0.0	ctx-rh-superiorparietal         	 MPM	64 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+

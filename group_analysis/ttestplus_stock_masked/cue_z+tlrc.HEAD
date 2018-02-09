@@ -1,0 +1,169 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 3322
+'[span@uncus: Thu May 19 11:37:09 2016] 3dttest++ -prefix ./cue_z -dupe_ok -toz -setA '/Users/span/projects/stockmri/subjects/lc160210/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/rp160214/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/rp160215/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/fv160223/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/mp160223/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/as160224/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/ew160226/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/ar160321/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/aa160408/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/mk160409/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/rf160409/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/bg160410/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/rm160410/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/mm160410/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/mm160411/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/kl160412/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/jk160415/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/lt160415/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/cm160416/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/ol160416/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/at160417/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/lc160417/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/kk160420/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/cl160422/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/sp160423/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/sh160424/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/ar160429/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/hh160430/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/bc160430/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/jr160430/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/rw160501/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/jr160501/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/yw160502/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/ez160504/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/kw160505/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/mt160514/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/gs160514/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/ac160515/zstock_reg_csfwm_masked+tlrc[25]' '/Users/span/projects/stockmri/subjects/ry160515/zstock_reg_csfwm_masked+tlrc[25]'~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_FUNC~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'XYZ_uL4oCx-FuoijRTqVfwf7SA~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Thu May 19 11:37:09 2016~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 11 1 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 0 3 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+         -79.75         -79.25         -63.95
+
+type  = float-attribute
+name  = DELTA
+count = 3
+            2.9            2.9            2.9
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+            2.9              0              0         -79.75              0
+            2.9              0         -79.25              0              0
+            2.9         -63.95
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+            2.9              0              0         -79.75              0
+            2.9              0         -79.25              0              0
+            2.9         -63.95
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 4
+   -0.006668621    0.004521242      -6.293606             13
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 2 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 56 66 52 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 2
+ 3 3
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 2
+              0              0
+
+type = string-attribute
+name = BRICK_LABS
+count = 20
+'SetA_mean~SetA_Zscr~
+
+type  = float-attribute
+name  = BRICK_STATAUX
+count = 3
+              1              5              0
+
+type = string-attribute
+name = BRICK_STATSYM
+count = 14
+'none;Zscore()~
+
+type  = float-attribute
+name  = FDRCURVE_000001
+count = 103
+   0.0001999569       0.129998      0.7378682      0.7898811      0.8469284
+      0.9091654      0.9769107       1.048212       1.122661       1.198542
+       1.244021       1.324797        1.40908       1.495042       1.587942
+       1.682938       1.782333       1.884174       1.989633       2.096475
+       2.205882       2.315356       2.425236       2.537122       2.648512
+       2.761117       2.875364       2.990923       3.105604       3.220435
+       3.336339       3.450413       3.565197       3.680169       3.792521
+       3.907939       4.024297       4.138979       4.252586       4.366998
+       4.482453       4.596707       4.711743       4.824643       4.938704
+       5.049328       5.165109       5.278347       5.392627       5.508263
+        5.62045       5.728347       5.839627       5.951443       6.058029
+        6.15586       6.264882       6.364118       6.451546       6.542794
+       6.640229       6.731097       6.828448       6.928689       6.961687
+       6.961928        6.96217       6.962411       6.962653       6.962894
+       6.963136       6.963377       6.963619        6.96386       6.964102
+       6.964343       6.964584       6.964826       6.965067       6.965308
+        6.96555       6.965792       6.966033       6.966274       6.966516
+       6.966757       6.966999        6.96724       6.967482       6.967723
+       6.967965       6.968206       6.968448       6.968689        6.96893
+       6.969172       6.969413       6.969655       6.969896       6.970138
+       6.970379       6.970621       6.970862
+
+type  = float-attribute
+name  = MDFCURVE_000001
+count = 70
+      -13.97232      0.2012415      0.9990015      0.9986799      0.9986023
+       0.998165      0.9979281       0.997594      0.9970321      0.9965664
+      0.9955823      0.9950051      0.9939723      0.9932807       0.992277
+      0.9914966      0.9899155      0.9883695      0.9867933      0.9853122
+      0.9835149      0.9816306      0.9794144      0.9772509      0.9745611
+      0.9713482      0.9682125      0.9652915       0.962051      0.9579057
+      0.9539897      0.9496303       0.944433      0.9389445      0.9324338
+      0.9256712      0.9182575      0.9104795       0.901171      0.8918139
+      0.8816407      0.8703477      0.8587222      0.8452696      0.8308117
+      0.8139718      0.7977105      0.7788612      0.7598578      0.7387416
+      0.7116793      0.6862876      0.6579489      0.6282272      0.5948877
+      0.5612424      0.5242054      0.4832812       0.441776      0.3957243
+       0.343834      0.2916801      0.2339377      0.1777636      0.1241928
+     0.07645968     0.03623143    0.009806573    0.008173615              0
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 7
+'TT_N27~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~

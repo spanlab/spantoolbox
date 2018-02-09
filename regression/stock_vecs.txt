@@ -1,0 +1,104 @@
+### All ###
+#Trial,TR,Market,Block,Trial_Onset,Drift,RT,Choice,Choice_Side,Result,New_Balance,Slope_So_Far,Cur_Slope,Slope_Result
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "cue.1D"
+MARK TR = 1 WITH 1
+END_VEC
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "choice.1D"
+MARK TR = 2,3 WITH 1
+END_VEC
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "feedback.1D"
+MARK TR = 4 WITH 1
+END_VEC
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "questions.1D"
+MARK TR = 8,9,10,11,12,13 WITH 1
+END_VEC
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "rt.1D"
+MARK TR = 3,4 WITH $RT
+END_VEC
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "stockup_onset.1D"
+MARK TR = 1 AND
+    Slope_Result > 0 WITH 1
+MARK TR = 1 AND
+    Slope_Result = 0 WITH 1
+MARK TR = 1 AND
+    Slope_Result < 0 WITH -1
+END_VEC
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "buy_vs_not_onset.1D"
+MARK TR = 1 AND
+    Choice = "No" WITH -1
+MARK TR = 1 AND
+    Choice = "Yes" WITH 1
+END_VEC
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "buy_vs_not.1D"
+MARK TR = 1,2 AND
+    Choice = "No" WITH -1
+MARK TR = 1,2 AND
+    Choice = "Yes" WITH 1
+END_VEC
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "win_lose.1D"
+MARK TR = 4 AND
+    Choice = "Yes" AND
+    Result = 1 WITH 1
+MARK TR = 4 AND
+    Choice = "Yes" AND
+    Result = -1 WITH -1
+END_VEC
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "no_bet_down_vs_up.1D"
+MARK TR = 4 AND
+    Choice = "No" AND
+    Slope_Result < 0 WITH 1
+MARK TR = 4 AND
+    Choice = "No" AND
+    Slope_Result > 0 WITH -1
+END_VEC
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "downrisk_choice.1D"
+MARK TR = 1,2 AND
+    Choice = "Yes" AND
+    Cur_Slope < 0 WITH 1
+MARK TR = 1,2 AND
+    Choice = "Yes" AND
+    Cur_Slope > 0 WITH -1
+END_VEC
+
+BEGIN_VEC
+INPUT: "stock_matrix.csv"
+OUTPUT: "up_vs_down.1D"
+MARK TR = 1,2 AND
+    Cur_Slope < 0 WITH 1
+MARK TR = 1,2 AND
+    Cur_Slope > 0 WITH -1
+END_VEC
+

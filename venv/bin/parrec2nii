@@ -1,0 +1,9 @@
+#!/Users/span/spantoolbox/venv/bin/python2.7
+"""PAR/REC to NIfTI converter
+"""
+
+from nibabel.parrec2nii_cmd import main
+
+
+if __name__ == '__main__':
+    main()

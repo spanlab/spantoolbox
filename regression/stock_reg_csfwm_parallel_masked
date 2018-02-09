@@ -1,0 +1,77 @@
+#! /bin/csh
+# for stockmri (nb, 2/12/16)
+
+# commented out auto-alignment + warp
+
+set TOPDIR = /Users/span/projects/stockmri
+set SCRIPTS = ${TOPDIR}/scripts
+
+echo $1
+cd ${TOPDIR}/subjects/$1
+
+#-#-#-#-#-#-#-#-#-#-#-		Run makeVec on model file:		-#-#-#-#-#-#-#-#-#-#-#
+
+
+python /usr/local/bin/makeVec.py /Users/span/projects/stockmri/scripts/stock_vecs.txt
+
+
+#-#-#-#-#-#-#-#-#-#-#-		Run waver on vectors:		-#-#-#-#-#-#-#-#-#-#-#
+
+waver -dt 2.0 -GAM -input cue.1D > cuec.1D
+waver -dt 2.0 -GAM -input choice.1D > choicec.1D
+waver -dt 2.0 -GAM -input feedback.1D > feedbackc.1D
+waver -dt 2.0 -GAM -input rt.1D > rtc.1D
+waver -dt 2.0 -GAM -input buy_vs_not.1D > buy_vs_notc.1D
+waver -dt 2.0 -GAM -input win_lose.1D > win_losec.1D
+waver -dt 2.0 -GAM -input downrisk_choice.1D > downrisk_choicec.1D
+waver -dt 2.0 -GAM -input questions.1D > questionsc.1D
+waver -dt 2.0 -GAM -input no_bet_down_vs_up.1D > no_bet_down_vs_upc.1D
+
+#-#-#-#-#-#-#-#-#-#-#-		Clean old regression file:		-#-#-#-#-#-#-#-#-#-#-#
+
+if ( -e stock_reg_csfwm_masked+orig.BRIK ) then
+	rm -rf stock_reg_csfwm_masked+orig*
+endif
+
+#resample the anatomical to fit stock
+3dresample -master stock_mbnf+orig. -prefix anat_nsr -inset anat_ns+orig
+
+#-#-#-#-#-#-#-#-#-#-#-		Run 3dDeconvolve:		-#-#-#-#-#-#-#-#-#-#-#
+
+
+3dDeconvolve -float -jobs $2 -input stock_mbnf+orig -mask anat_nsr+orig -censor combined_censor.1D -nfirst 0 -num_stimts 15 -polort 2 \
+	-stim_file 1 '3dmotionstock.1D[1]' -stim_label 1 'roll' \
+	-stim_file 2 '3dmotionstock.1D[2]' -stim_label 2 'pitch' \
+	-stim_file 3 '3dmotionstock.1D[3]' -stim_label 3 'yaw' \
+	-stim_file 4 '3dmotionstock.1D[4]' -stim_label 4 'dS' \
+	-stim_file 5 '3dmotionstock.1D[5]' -stim_label 5 'dL' \
+	-stim_file 6 '3dmotionstock.1D[6]' -stim_label 6 'dP' \
+	-stim_file 7 'bstock_mbnf_csf_mask.1D' -stim_label 7 'csf' \
+	-stim_file 8 'bstock_mbnf_wm_mask.1D' -stim_label 8 'wm' \
+	-stim_file 9 'cuec.1D' -stim_label 9 'cue' \
+	-stim_file 10 'choicec.1D' -stim_label 10 'choice' \
+	-stim_file 11 'feedbackc.1D' -stim_label 11 'feedback' \
+	-stim_file 12 'buy_vs_notc.1D' -stim_label 12 'buy_vs_not' \
+	-stim_file 13 'win_losec.1D' -stim_label 13 'win_lose' \
+	-stim_file 14 'questionsc.1D' -stim_label 14 'questions' \
+	-stim_file 15 'no_bet_down_vs_upc.1D' -stim_label 15 'no_bet_down_vs_up' \
+	-tout -fout -bucket stock_reg_csfwm_masked
+
+
+
+#-#-#-#-#-#-#-#-#-#-#-		Write zscored dataset:		-#-#-#-#-#-#-#-#-#-#-#
+
+if ( -e zstock_reg_csfwm_masked+orig.BRIK ) then
+	rm -rf zstock_reg_csfwm_masked+orig*
+endif
+
+3dmerge -doall -1zscore -prefix zstock_reg_csfwm_masked stock_reg_csfwm_masked+orig
+
+
+
+
+#-#-#-#-#-#-#-#-#-#-#-		Remove non-zscored dataset:		-#-#-#-#-#-#-#-#-#-#-#
+
+rm -rf stock_reg_csfwm_masked+orig*
+
+
