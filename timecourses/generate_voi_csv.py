@@ -1,57 +1,46 @@
+"""Script for taking matric.csv files and combining them with VOI data into 
+   large csv files for all subjects. """
 import os
 import numpy as np
 import pandas as pd
 import pdb
 
 BEHAVIORAL = 'stock_matrix.csv'
-TOP_DIR = '/Users/span/projects/stockmri'
-SUBJECT_DIR = os.path.join(TOP_DIR, 'subjects')
 TC_FOLDER = 'stock_raw_tcs'
-OUTFILE = '/Users/span/projects/stockmri/tc/stocks/stock_master.csv'
+WIDE_OUTFILE = 'stock_voi_wide_1.csv'
+TOP_DIR = '/Users/span/projects/stock/voi/raw_timecourses/stock_1'
 
-def get_subjects():
-    with open(os.path.join(TOP_DIR, 'pyproject','all_good_subjects.txt')) as f:
-        subjects = [x.strip('\n') for x in f.readlines()]
-    return subjects
+with open(os.path.join('/Users/span/projects/stock/voi/voi_csv', 'stock_1_subjects.txt')) as f:
+    SUBJECTS = [x.strip('\n') for x in f.readlines()]
+#'mirre_r_acc', 'mirre_b_dlpfc', 'mirre_acc', 'mirre_r_insula', 'mirre_vlpfc', 
+MASKS = ['demartino_dmpfc8mm', 'nacc8mm', 'mpfc', 'acing', 
+         'dlpfc', 'desai_ins', 'nacc_desai_mpm']
 
-subjects = get_subjects() # just make a list of your subjects
-
-MASKS = ['nacc8mm','ins','mpfc','acing','caudate','dlpfc'] + ['mirre_r_acc', 'mirre_b_dlpfc', 'mirre_acc', 'mirre_r_insula', 'vlpfc'] # fix this to be whaever yours are...
-SIDES = ['b']#,'l','r']
-
-def subj_iterator():
-    curr = os.getcwd()
-    for subject in subjects:
-       os.chdir(os.path.join(SUBJECT_DIR, subject))
-       if os.path.exists(os.path.join(SUBJECT_DIR, subject, 'stock_matrix.csv')):
-           yield subject
-    os.chdir(curr)
-
+SIDES = ['b', 'l', 'r']
 TR_DELAY = xrange(16)
-MASTER = []
 
-for mask in MASKS:
-    for side in SIDES:
-        for s in subj_iterator():
-            data_matrix = pd.read_csv(BEHAVIORAL)
-            data_matrix['Subject'] = np.tile([s], (data_matrix.shape[0],1))
-            data_matrix['ROI'] = np.tile(
-              [mask + side], (data_matrix.shape[0],1)
-            )
+def get_tc_file(subject, mask, side):
+    tc_file = subject + '_' + side + '_' + mask + '_raw.tc'
+    tc_file_path = os.path.join(TOP_DIR, subject, TC_FOLDER, tc_file)
+    return np.genfromtxt(tc_file_path)
 
-            # data_matrix = data_matrix.rename(columns = {data_matrix.columns[2] : 'Timestamp'})
-            tcdf = data_matrix#[['ROI','Subject', 'Condition', 'TR', 'Trial_type','Choice']]
-            tc_file = s + '_' + side + '_' + mask + '_raw.tc'
-            tc_file_path = os.path.join(TC_FOLDER, tc_file)
+AGGREGATE = []
+for subject in SUBJECTS:
+    bpath = os.path.join(TOP_DIR, subject, BEHAVIORAL)
+    data_matrix = pd.read_csv(bpath)
+    data_matrix['Subject'] = np.tile([subject], (data_matrix.shape[0], 1))
+    #data_matrix['Censor'] =  pd.Series(np.genfromtxt('stock_censor.1D'))
+    data_matrix['Previous_Choice'] = pd.Series(data_matrix['Choice']).shift(1)
 
-            tc = np.genfromtxt(tc_file_path)
-            tc = (tc-tc.mean())/tc.std() #z-score
+    for mask in MASKS:
+        for side in SIDES:            
+            tc = get_tc_file(subject, mask, side)
             for tr in TR_DELAY:
-                tcdf['TR_' + str(1 + tr)] = pd.Series(tc).shift(-tr)
-            tcdf = tcdf[tcdf['TR'] == 1]
-            if isinstance(MASTER, list):
-                MASTER = tcdf
-            else:
-                MASTER = MASTER.append(tcdf)
-
-MASTER.to_csv(OUTFILE)
+                data_matrix[mask + side + '_TR_' + str(1 + tr)] = pd.Series(tc).shift(-tr)
+                
+    data_matrix = data_matrix[data_matrix['TR'] == 1]
+    if isinstance(AGGREGATE, list):
+        AGGREGATE = data_matrix
+    else:
+        AGGREGATE = AGGREGATE.append(data_matrix)
+AGGREGATE.to_csv(os.path.join('/Users/span/projects/stock/voi/voi_csv/', WIDE_OUTFILE))
